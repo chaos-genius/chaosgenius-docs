@@ -73,7 +73,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/chaos-genius/chaos_genius/tree/main/docs',
+            'https://github.com/chaos-genius/chaos-genius-docs/tree/main',
         },
         // blog: {
         //   showReadingTime: true,
