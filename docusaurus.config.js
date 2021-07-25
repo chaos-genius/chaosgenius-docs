@@ -9,7 +9,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon-simple.png',
+  favicon: 'img/favicon.ico',
   organizationName: 'chaos-genius', // Usually your GitHub org/user name.
   projectName: 'chaos_genius', // Usually your repo name.
   themeConfig: {
@@ -17,7 +17,8 @@ module.exports = {
       title: 'ChaosGenius Documentation',
       logo: {
         alt: 'ChaosGenius Logo',
-        src: 'img/logo-og.png',
+        src: 'img/logo-light.png',
+        srcDark: 'img/logo-dark.png',
       },
       items: [
         {
