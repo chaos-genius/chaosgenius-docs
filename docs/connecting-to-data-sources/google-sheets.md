@@ -5,13 +5,16 @@ id: 'Google Sheets'
 
 # Google Sheets
 
-To connect Google Analytics data as a data source, you will need the following information:
+To connect Google Sheets as a data source, you will need the following information:
 
 * **Credentials JSON**
     * Credentials for the Service Account linked to the Google Sheets document.
 * **Spreadsheet ID**
     * The ID of the Google Sheet to connect to.<br/>
     For example, if the URL for the Google Sheet is https://docs.google.com/spreadsheets/d/1ZV8j3TatU3EvhdlYU8xKFoY9OgEspznDicQA99igV5c/edit, the ID is `1ZV8j3TatU3EvhdlYU8xKFoY9OgEspznDicQA99igV5c`.
+    
+<img alt="Options For Google Sheets" src="/img/connecting-to-data-sources/google-sheets.png" width="500" />
+
     
 ### Getting the Credentials JSON
 

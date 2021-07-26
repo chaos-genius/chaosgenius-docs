@@ -9,4 +9,4 @@ In this UI, all valid data sources which can be used within the Dashboard are li
 
 If you want to add more data sources, click on "New Data Source"
 
-#### PUT IMAGE HERE WITH OUTLINE ON THE "NEW DATA SOURCE" BUTTON
+![Data Sources UI](/img/connecting-to-data-sources/show-data-sources.png)

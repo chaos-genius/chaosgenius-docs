@@ -7,14 +7,16 @@ id: 'Postgres'
 
 To connect a Postgres database as a data source, you will need the following information:
 
-* **Username**
-* **Password**
-* **Database Name**
+* **Username**: Username of user with access to database.
+* **Password**: Password of the user.
+* **Database Name**: Name of the database to connect to.
 * **Database Host**:
     * For Localhost: localhost or 127.0.0.1
     * For External DB: The public IP of the server 
-* **Port**: 
-    * Default is 5432.
+* **Port**: Default is 5432.
+
+<img alt="Options For Postges" src="/img/connecting-to-data-sources/postgres.png" width="500" />
+
 
 ### Generating a new read-only user (Optional but recommended)
 

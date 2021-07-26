@@ -5,7 +5,7 @@ id: 'Google Analytics'
 
 # Google Analytics
 
-To connect Google Analytics data as a data source, you will need the following information:
+To connect Google Analytics as a data source, you will need the following information:
 
 * **Credentials JSON**
     * Credentials for the Service Account linked to the Google Analytics View.
@@ -14,6 +14,8 @@ To connect Google Analytics data as a data source, you will need the following i
 * **View ID**
     * The ID of the Google Analytics View you want to get data from. Can be found using [Google Analytics Account Explorer](https://ga-dev-tools.appspot.com/account-explorer/).
 * **Custom Reports (Optional)**
+
+<img alt="Options For Google Analytics" src="/img/connecting-to-data-sources/google-analytics.png" width="500" />
 
 ### Getting the Credentials JSON
 
