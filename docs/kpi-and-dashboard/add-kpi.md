@@ -5,58 +5,64 @@ id: 'adding-kpis'
 
 # Adding KPIs
 
+### What is a KPI
+A Key Performance Indicator (KPI) is a statistic that is used to quantify progress towards critical business objectives. Some examples of KPIs include:
+1. Monthly sales growth
+2. Average purchase value
+3. Daily active users
+
+Alone, these KPIs will provide a baseline representation of how your business is doing. However, by adding these KPIs to Chaos Genius, you will be able to use our AutoRCA and Anomaly Detection tools to instantly gain insights that would have taken hours to gather manually.
+
+### Adding a KPI
 KPIs can be added on the "KPI Explorer" page. Start by clicking "New KPI".
 
-An overview for each input is provided below to aid with adding your KPI.
+<img alt="Options For Adding A KPI" src="/img/kpi-and-dashboard/kpi-dashboard.png" width="800" />
+
+### Table vs Custom Query KPIs
+
+#### Table KPIs
+
+These KPIs are simpler to set up and great if you want to start using Chaos Genius as fast as possible. 
+
+These KPIs can handle major cases. However, if you wish to do any kind of preprocessing, or collect data from multiple tables, you will need to use a Custom Query KPI.
+
+#### Custom Query KPIs
+
+These KPIs are constructed using your own query. As opposed to Table KPIs, here you can utilize an added complexity by using multiple tables, performing single and multi-table transformations and more when defining your KPI.
+
+Before proceeding, ensure you click "Test Query". If no errors are present, the added query is valid.
+The validity of a query depends on the data source. For example, if the data source is Postgres or MySQL, the query needs to adhere to database's syntax.
+
 <figure>
 <img alt="Options For Adding A KPI" src="/img/kpi-and-dashboard/adding-kpi.png" width="800" />
-<figcaption>Example data is used. Your values will differ.</figcaption>
+<figcaption>The data above is used as an example. Your values will differ.</figcaption>
 </figure>
 
-### Data Source
-When you click on `Select Data Source`, all your data sources will be shown. Select the one on which you wish to perform analysis.
+### KPI Parameters
 
-If no data sources are displayed, refer to [Connecting Data Sources](/docs/connecting-to-data-sources/Data%20Source%20Connection%20UI).
-
-### Dataset Type
-For `Select Dataset Type`, the two options are "Table" and "Query".
-
-If you select "Table", Chaos Genius will analyze your Data Source, automatically gathering all its information to be used in the input fields below.
-
-If you prefer a more hands-on method, "Query" allows you to write a query to manually gather the information from your data source.
-
-### Table Name (Only if Dataset Type = "Table")
-
-When you click `Table Name`, a list of tables will be shown. Choose the one you want Chaos Genius to analyze.
-
-The table chosen will impact which columns are available in the input fields below.
-
-### Query (Only if Dataset Type = "Query")
-
-In this textbox, write a query to gather information for Chaos Genius. For example, if the data source is Postgres or MySQL, the query needs to adhere to database's syntax.
-
-Once the query is written, press "Test Query". If no errors were present, the input fields below should be populated with options for you to choose from.
-
-<figure>
-<img alt="Options For Adding A KPI" src="/img/kpi-and-dashboard/add-kpi-query.png" width="400" />
-<figcaption>An example of a valid query for a Postgres database with a table called 'reviews'</figcaption>
-</figure>
-
-### Metric Column
+#### Metric Column
 
 The table column chosen for `Metric Column` is what Chaos Genius will aggregate. 
 
-### Aggregate By
+#### Aggregate By
 
 `Aggregate By` has three options:
 1. Mean
 2. Count (Does not matter which column chosen for `Metric Column` as the processed value will be the same)
 3. Sum
 
-### Datetime Columns
+#### Datetime Columns
 
 From all the columns displayed for `Datetime Columns`, you need to choose the one that stores time.
 
-### Dimension Columns
+#### Dimension Columns
 
 These columns are the ones you want Chaos Genius to do analysis on. You can choose a maximum of 5 columns.
+
+### KPI Validation
+
+Once all the details for a new KPI are inputted and you click "Add KPI", Chaos Genius will determine whether it is a valid. If it is not, an error will appear, else you will be redirected to the KPI Dashboard. 
+
+### Next Steps
+
+Once the KPI is set up properly, you will be able log onto your dashboard everyday and find the new insights provided based on the updated data from your selected [Data Sources](http://localhost:3000/docs/connecting-to-data-sources/Data%20Source%20Connection%20UI).
