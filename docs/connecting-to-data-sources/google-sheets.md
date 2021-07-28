@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-id: 'Google Sheets'
+id: 'google-sheets'
 ---
 
 # Google Sheets

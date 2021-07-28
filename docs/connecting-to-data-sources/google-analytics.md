@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-id: 'Google Analytics'
+id: 'google-analytics'
 ---
 
 # Google Analytics

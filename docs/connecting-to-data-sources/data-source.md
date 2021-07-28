@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-id: 'Data Source Connection UI'
+id: 'data-source-connection-ui'
 ---
 
 # Data Source Connection UI

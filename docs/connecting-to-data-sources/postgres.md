@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-id: 'Postgres'
+id: 'postgres'
 ---
 
 # Postgres
