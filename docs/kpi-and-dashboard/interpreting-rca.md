@@ -7,7 +7,7 @@ id: 'interpreting-rca-results'
 
 Once you've selected the KPI you want to view, your results will look similar like this:
 
-![RCA Results](/img/kpi-and-dashboard/dashboard.png)
+![RCA Results](/img/kpi-and-dashboard/rca-dashboard.png)
 
 The KPI in this example is "E-com - Total Sales." When creating this KPI, it was set up to be a sum aggregation of the \`ItemTotalPrice\` column.
 

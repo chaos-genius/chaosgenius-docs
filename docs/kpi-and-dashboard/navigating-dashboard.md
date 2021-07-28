@@ -12,4 +12,4 @@ Navigating your Chaos Genius dashboard is as simple as a few steps!
 3. Using the tabs at the top, you can select the analysis type.
 4. The resulting analysis shows below!
 
-![Dashboard Overview](/img/kpi-and-dashboard/dashboard-overview.png)
+![Dashboard Overview](/img/kpi-and-dashboard/rca-dashboard-overview.png)
