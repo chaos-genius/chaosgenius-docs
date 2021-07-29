@@ -47,4 +47,10 @@ A list of Time series charts are displayed where each graph represents a value f
 
 In this example, the high-severity anomaly in the DQ graph for the maximum `ItemTotalPrice` may be worthwile investigating.
 
-Here, you can scroll down your dashboard to view each of the Data Quality charts. Currently, for KPIs aggregated from numerical columns, data quality is performed for the following metrics: **Volume of data, Max of data, Min of data, Mean of data, and Amount Missing**.
+Here, you can scroll down your dashboard to view each of the Data Quality charts. Currently, for KPIs aggregated from numerical columns, data quality is performed for numerous metrics:
+
+- Volume: Number of rows in the data.
+- Max: Max value of the KPI data.
+- Min: Min value of the KPI data.
+- Mean: Mean of the KPI data.
+- Missing: Number of missing rows of the KPI.
