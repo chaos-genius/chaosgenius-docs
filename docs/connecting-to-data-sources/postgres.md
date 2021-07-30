@@ -18,7 +18,7 @@ To connect a Postgres database as a data source, you will need the following inf
 <img alt="Options For Postges" src="/img/connecting-to-data-sources/postgres.png" width="500" />
 
 
-### Generating a new read-only user (Optional but recommended)
+## Generating a new read-only user (Optional but recommended)
 
 It is recommended that you create a new user with read-only access. If you feel that this step is not necessary, feel free to use one of your existing users.
 

@@ -17,26 +17,26 @@ To connect Google Analytics as a data source, you will need the following inform
 
 <img alt="Options For Google Analytics" src="/img/connecting-to-data-sources/google-analytics.png" width="500" />
 
-### Getting the Credentials JSON
+## Getting the Credentials JSON
 
-#### Creating a Service Account
+### Creating a Service Account
 
 1. Log into the Google Account that has Administrator permissions on Google Analytics.
 2. Go to the [Service Account page](https://console.developers.google.com/iam-admin/serviceaccounts) and click "Create service account".
 3. Add a JSON key for new Service Account and copy the contents of the downloaded JSON file into the "Credentials JSON" field.
 
-#### Giving Service Account access to Google Analytics
+### Giving Service Account access to Google Analytics
 
 1. Copy the Service Account email address.
 2. Go to Google Analytics and [add a user](https://support.google.com/analytics/answer/1009702) with the copied email address. This new user needs "Read & Analyze" permissions.
 
-#### Enabling the APIs
+### Enabling the APIs
 
 1. Go to [Google Console](https://console.cloud.google.com/).
 2. In the search box at the top, enter "Google Analytics Reporting API". Click the first option and then press "Enable". 
 3. Repeat Step 2 but for "Google Analytics API".
 
-### Using Custom Reports
+## Using Custom Reports
 
 This does exactly what Google Analytics's Custom Reports feature does. To use it, input a JSON object in the "Custom Reports" field. The format for a custom report is:
 ```json

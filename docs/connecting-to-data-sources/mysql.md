@@ -27,7 +27,7 @@ To connect a MySQL database as a data source, you will need the following inform
 <img alt="Options For MySQL" src="/img/connecting-to-data-sources/mysql.png" width="500" />
 
 
-### Generating a new read-only user (Optional but recommended)
+## Generating a new read-only user (Optional but recommended)
 
 It is recommended that you create a new user with read-only access. If you feel that this step is not necessary, feel free to use one of your existing users.
 
