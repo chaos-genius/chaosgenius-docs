@@ -2,36 +2,39 @@
 sidebar_position: 1
 ---
 
-# What is Chaos Genius
+# Introduction
 
-Let's discover **Chaos Genius in less than 5 minutes**.
+About Chaos Genius
 
-## Getting Started
+## Features
 
-Get started by **creating a new site**.
+Key Feature List
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+
+## Quick Start
 
 ## Architecture
 
 ![image](/img/cg-high-level-arch.png)
 
-Generate a new Docusaurus site using the **classic template**:
+## Community
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
 
-## Start your site
+Slack Channel Details
+Github
+Schdule Office Hours
+LinkedIn
 
-Run the development server:
 
-```shell
-cd my-website
+## Contributing
 
-npx docusaurus start
-```
 
-Your site starts at `http://localhost:3000`.
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+## Roadmap
+
+Check out our Roadmap 
+
+## License
+
+Chaos Genius is licensed under the MIT license. See the LICENSE file for licensing information.
+
