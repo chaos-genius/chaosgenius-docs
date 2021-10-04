@@ -44,12 +44,13 @@ With Chaos Genius, we aim to automate the diagnosis and root-cause-analysis for 
 
 ## Quick Install
 
-
+```
 git clone https://github.com/chaos-genius/chaos_genius
 
 cd chaos_genius
 
 docker-compose up
+```
 
 Visit[  http://localhost:8000](http://localhost:8000/)
 
