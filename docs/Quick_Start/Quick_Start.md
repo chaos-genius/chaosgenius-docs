@@ -15,3 +15,14 @@ cd chaos_genius
 
 docker-compose up
 ```
+Once you see the Chaos Genius success banner, the UI is ready to be accessed at[  ](http://localhost:8000/)<http://localhost:8000>.
+
+If you are facing any issues while installing, please visit our detailed section on [Installation](https://docs.google.com/document/d/1y568-aky5EXbR3RhA1kho4kqpxcHifcDJfk6ft5nRC8/edit#heading=h.xqge4hkxkeui). 
+
+Next, follow the following 3 step process from the setup screen:
+
+-   Add Data Source
+
+-   Add KPI
+
+-   Activate Analytics
