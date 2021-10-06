@@ -5,82 +5,67 @@ id: 'DeepDrills'
 
 # DeepDrills
 
+### KPI Overview
+
 Once you've selected the KPI you want to view, your results will look similar like this:
 
 ![RCA Results](/img/kpi-and-dashboard/rca-dashboard.png)
 
-The KPI in this example is "E-com - Total Sales." When creating this KPI, it was set up to be a sum aggregation of the \`ItemTotalPrice\` column.
+The KPI in this example is `Uber Rides` When creating this KPI, it was set up to be a `Sum` aggregation of the `num_rides` column.
 
 Let's take a deeper look at these results!
 
-## KPI Statistics
-
 At the top, you'll see a summary of your KPI column represented with Panel Metrics and a Time Series plot.
 
-![Panel Metrics and Time Series plot](/img/kpi-and-dashboard/panel-metrics-and-time-series.png)
+## Panel Metrics
 
-### Changing the RCA time range
+**Insert Image**
+
+Chaos Genius produces panel metrics from the KPI column to display how the KPI column across various metrics has changed between our two groups of data. For example, here, the total rides were 741874 Last Month, and 775337 This Month. Between Last month and This Month, the KPI `Uber Rides` increased by 33463!
+
+In addition to the KPI value, you can also see related statistics like Mean, Count, Median, Max and Min to check the data distribution.
+
+## Time Series Plot
+
+**Insert Image**
+
+Chaos Genius will also produce a helpful time series plot to graphically display your selected KPI over the selected time range.
+
+## Changing the time range
 
 ![Change RCA time range](/img/kpi-and-dashboard/change-time-range.png)
 
-Using the Time range dropdown, you can either select to compare groups in a Month-on-Month or a Week-on-Week fashion.
+Using the Time range dropdown, you can either select to compare groups in a Month-on-Month Week-on-Week or Day-on-Day intervals.
 
-### Panel Metrics
+## Single Dimensional Waterfall
 
-![Panel Metrics](/img/kpi-and-dashboard/panel-metrics.png)
+Just under the Panel Metrics and Time Series, you can view the waterfall plot. The waterfall plot shows the most impactful subgroups and their impacts on the KPI metric.
 
-Chaos Genius produces panel metrics from the KPI column to display how the KPI column across various metrics has changed between our two groups of data. For example, here, the total sales were `23.68` last month, and is `22.47` this month. Between last month and this month, the total sales decreased approximately `-1.21`!
+You can use the dropdown to select the Single Dimensional analysis. Then use the tabs to select a sub-dimension.
 
-### Time Series plot
+**Insert Image**
 
-![Time Series](/img/kpi-and-dashboard/time-series.png)
+Notice that all subgroups are values of the selected sub-dimension. For the selected single dimension, you can see how specific values of a sub-dimension affect the KPI.
 
-Chaos Genius will also produce a helpful time series plot to graphically display your selected KPI over both time ranges. In this example, here, since we are using a sum aggregation, the sum of the ItemTotalPrice column is displayed. We can compare the value for any day of the month to the corresponding day in the previous month.
+Below the waterfall charts, you can view the impact of each value of the selected sub-dimension. For example, we can see the overall impact of DayOfWeek = Friday. By clicking the expansion arrow next to a single dimensional subgroup, you can perform Drill-Downs and also view a breakdown of all the multidimensional subgroups that compose this subgroup.
 
-## RCA Drill Downs (Waterfall Charts)
+By default subgroups are sorted by their absolute impact.
 
-### Multidimensional Drill Downs
+## Multi-Dimensional Waterfall
 
-![Multidim Waterfall](/img/kpi-and-dashboard/multidim-waterfall.png)
+You can use the dropdown to select the Multi-Dimensional analysis. The Multi-Dimensional waterfall has the advantage over single dimensional waterfall due to the fact that it compares all subgroups to find the most impactful ones instead of being limited by a single dimension. The downside is that it is computationally more expensive due to overlap calculations.
 
-#### Waterfalls
+Each tile in the waterfall represents a subgroup (a combination of 1 or more sub-dimension values that exists in the dataset). The start and end tiles are for the KPI value in the selected time range groups (Month on Month or Week on Week or Day on Day), respectively. In this example, start is the Uber Rides for Last Month, while end is the Uber Rides for This Month.
 
-Just under the Panel Metrics and Time Series, you can view the multidimensional waterfall plot by selecting it in the dimension select dropdown. The waterfall plot shows the **most impactful subgroups** and their impacts on the KPI metric.
+The "others" tile represents the sum of impacts from all other not-shown subgroups which each individually, had a minimal impact.
 
-Each tile in the waterfall represents a subgroup (a combination of 1 or more subdimension values that exists in the dataset). The start and end tiles are for the KPI value in the baseline and focus groups, respectively. In this example, start is the total sales for **last month**, while end is the total sales for **this month**.
+**Insert Image**
 
-**The "others" tile represents the sum of impacts from all other not-shown subgroups which each individually, had a minimal impact.**
+Below the waterfall charts, a table of the "Top Drivers" subgroups is displayed along with calculations for aggregations comparing the previous to current month. By default, subgroups are sorted by their absolute impact.
 
-![Top Drivers](/img/kpi-and-dashboard/multidim-top-drivers.png)
+**Insert Image**
 
-#### Top Drivers
 
-Below the waterfall charts, a table of the "Top Drivers" subgroups is displayed along with calculations for aggregations comparing the previous to current month.
-
-By default, subgroups are sorted by their absolute impact; in addition, a custom sort can be applied by clicking on any of the column headers.
-
-![Without Overlap](/img/kpi-and-dashboard/multidim-top-drivers-no-overlap.png)
-
-#### Remove Subgroup overlap
-
-Subgroups could overlap when they have a value for a dimension in common. For example, `DayOfWeek = Thursday` would overlap with `DayOfWeek = Thursday & PurchaseTime = night` as any datum in the latter subgroup, would also be included in the former subgroup.
+Subgroups could overlap when they have a value for a dimension in common. For example, DayOfWeek = Thursday would overlap with DayOfWeek = Thursday & PeriodofDay = Night as any datum in the latter subgroup would also be included in the former subgroup.
 
 With Chaos Genius, you can look at the calculated non-overlap impact by toggling the "Remove Overlap" switch.
-
-### Single dimensional Drill Downs
-
-You can use the dropdown to select a Single Dimensional analysis. Then use the tabs to select a subdimension.
-
-![Single Dimensional Waterfall](/img/kpi-and-dashboard/single-dim-waterfall.png)
-
-#### Waterfalls
-
-Notice that all subgroups are values of the selected subdimension. For single dimension RCA, you can see how specific values of a subdimension affect the KPI.
-
-![Impacts](/img/kpi-and-dashboard/single-dim-subgroup-impacts.png)
-
-#### Single dimensional Subgroup Impacts
-
-Below the waterfall charts, you can view the impact of each value of the selected subdimension. For example, we can see the overall impact of `DayOfWeek = Thursday`. By clicking the expansion arrow next to a single dimensional subgroup, we can also view a breakdown of all the multidimensional subgroups that compose this subgroup.
-
-By default subgroups are sorted by their absolute impact; in addition, a custom sort can be applied by clicking on any of the column headers.
