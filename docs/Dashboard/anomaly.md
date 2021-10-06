@@ -46,27 +46,31 @@ Here we ask for what kind of seasonality is expected in the data as it can help 
 
 Chaos Genius offers multiple algorithms that can be selected for different KPIs based on the use-case and expected noise in the data in order to minimize false positives and alert fatigue. 
 
-#### Standard Deviation (SD)
+### Standard Deviation (SD)
 
 The Standard Deviation model forecasts time series prediction as the standard deviation of the past values.  The model should be utilized when your data does not have any significant seasonality. It is also recommended to use the algorithm when you have a large number of metrics to keep track of and you want to save on compute power.
 
-#### Exponentially Weighted Standard Deviation
+### Exponentially Weighted Standard Deviation (EWSTD)
 
 The EWSTD model is a simple extension to the SD model (which assigns equal weight to every point in time), by assigning more weight to the most recent observations using an exponential scheme. It handles trends & recent variation in data better as compared to the Standard Deviation Model.
 
-#### Prophet
+### Prophet
 
 Prophet is an open source software released by Facebook. It is a time series forecasting technique based on an additive model that fits non-linear trends with yearly, weekly, and daily seasonality, as well as holiday effects. It's robust to missing data and trend changes, and it usually handles outliers well. Additional details regarding the model are available [here](https://research.fb.com/prophet-forecasting-at-scale/).
 
-#### NeuralProphet (Beta)
+### NeuralProphet (Beta)
 
-NeuralProphet retains all the advantages of Facebook's Prophet model, while improving its accuracy, speed and scalability by introducing an improved backend (PyTorch instead of Stan) and using an Auto-Regressive Network (that combines the scalability of neural networks with the interpretability of the Auto-Regressinve models).  A more detailed explanation of the model can be found [here](https://neuralprophet.com/model-overview/).  **This model is currently in Beta within the Chaos Genius setup.**
+NeuralProphet retains all the advantages of Facebook's Prophet model, while improving its accuracy, speed and scalability by introducing an improved backend (PyTorch instead of Stan) and using an Auto-Regressive Network (that combines the scalability of neural networks with the interpretability of the Auto-Regressinve models).  A more detailed explanation of the model can be found [here](https://neuralprophet.com/model-overview/).  
 
-#### Greykite (Beta)
+**This model is currently in Beta within the Chaos Genius setup.**
 
-Greykite is an open source package that was created to serve LinkedIn's forecasting needs. Greykite offers two forecasting models: Prophet and Silverkite. Silverkite, the company's core forecasting algorithm, is quick, accurate, and intuitive, making it ideal for interactive and automated forecasting at scale. If you prefer Bayesian models and need logistic growth with changing capacity over time, choose Prophet. Else if speed is important and if you want to forecast a quantile, select Silverkite. A complete list of details are provided [here](https://linkedin.github.io/greykite/docs/0.1.0/html/pages/stepbystep/0100_choose_model.html). **This model is currently in Beta within the Chaos Genius setup.**
+### Greykite (Beta)
 
-#### Error Trend Seasonality (Coming Soon)
+Greykite is an open source package that was created to serve LinkedIn's forecasting needs. Greykite offers two forecasting models: Prophet and Silverkite. Silverkite, the company's core forecasting algorithm, is quick, accurate, and intuitive, making it ideal for interactive and automated forecasting at scale. If you prefer Bayesian models and need logistic growth with changing capacity over time, choose Prophet. Else if speed is important and if you want to forecast a quantile, select Silverkite. A complete list of details are provided [here](https://linkedin.github.io/greykite/docs/0.1.0/html/pages/stepbystep/0100_choose_model.html). 
+
+**This model is currently in Beta within the Chaos Genius setup.**
+
+### Error Trend Seasonality (Coming Soon)
 
 The ETS model is designed to forecast time series data by observing the trend and seasonality patterns in a time series. An ETS model has three main components: error, trend, and seasonality. Each can be applied either additively, multiplicatively, or none chosen at all. This model will be available in the upcoming version of Chaos Genius.
 
@@ -81,19 +85,19 @@ In this example, the selected KPI is "Total Sales," which was set up as the sum 
 
 Now let's dive into our Anomaly Detection results!
 
-## Overall KPI Charts
+## Overall KPI Anomaly Chart
 
 At the top of your results, a Time Series plot is displayed where each point displays the KPI value for the input time frequency. In this case, a daily frequency is used; this graph shows the **sum of `ItemTotalPrice` each day**.
 
 ![Overall KPI Anomaly Chart](/img/kpi-and-dashboard/anomaly-overall-kpi-chart.png)
 
-**Notice**:
+Notice:
 
-- The graph is color coded: the time series is **green inside** our confidence interval, and **red outside**. Red points are anomalies!
-- By dragging over any section of the graph, you can zoom into that section.
-- As you hover over the graph, points are annotated with the KPI value, and Confidence Interval bounds.
+-   The graph is color coded: the time series is green inside our confidence interval, and red outside. Red points are anomalies!
 
-**^ Edit when Severity Score & maybe expected value graph is available.**
+-   By dragging over any section of the graph, you can zoom into that section.
+
+-   As you hover over the graph, points are annotated with the KPI value, and Confidence Interval bounds, Severity Score of the Anomaly & the Datetime.
 
 ## Drill Downs
 
@@ -119,6 +123,5 @@ Here, you can scroll down your dashboard to view each of the Data Quality charts
 
 - Volume: Number of rows in the data.
 - Max: Max value of the KPI data.
-- Min: Min value of the KPI data.
 - Mean: Mean of the KPI data.
 - Missing: Number of missing rows of the KPI.
