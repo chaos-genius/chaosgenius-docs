@@ -65,4 +65,4 @@ Once all the details for a new KPI are inputted and you click "Add KPI", Chaos G
 
 ## Next Steps
 
-Once the KPI is set up properly, you will be able log onto your dashboard everyday and find the new insights provided based on the updated data from your selected [Data Sources](../connecting-to-data-sources/data-source-connection-ui).
+Once the KPI is set up properly, you will be able log onto your dashboard everyday and find the new insights provided based on the updated data from your selected .
