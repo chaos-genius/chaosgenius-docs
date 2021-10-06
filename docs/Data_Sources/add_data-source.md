@@ -13,16 +13,23 @@ If you do not find the data source you are looking to add, please drop us a line
 
 For a few of the data sources, Chaos Genius uses [Airbyte](https://docs.airbyte.io/) to load and sync data. For the said data sources, Chaos Genius follows the documentation support provided by Airbyte.
 
+## Add a New Data Source
 Within the Data Sources section, you can find a list of all the Data sources that have been added along with the Status, Data Source Type, Number of KPIs currently defined using the particular data source, Last sync time and the date of creation.
+
+**Insert Image**
 
 For adding a new Data Source, click on the "New Data Source" button on top right. You are required to follow the following steps:
 
--   Name the data source
+-   Name the Data Source
 
--   Select the data source type from the drop down
+-   Select the Data Source type from the drop down
 
 -   Fill in the required credentials
 
 The credential information varies by each Data Source type. Once you've filled in the credentials, you are required to test the connection by pressing "Test Connection".
 
+**Insert Image**
+
 If the connection is successfully tested, you can add the Data Source by pressing the "Add Data Source" button on the bottom.
+
+**Insert Image**
