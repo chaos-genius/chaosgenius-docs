@@ -5,7 +5,11 @@ id: 'add_data-source'
 
 # Add Data Source
 
-Chaos Genius supports multiple data sources. Please find a complete list of data sources & setup instructions for each data source in our Data Sources Catalog Chaos Genius supports multiple data sources. Please find a complete list of data sources & setup instructions for each data source in our [Data Sources Catalog](https://docs.google.com/document/d/1y568-aky5EXbR3RhA1kho4kqpxcHifcDJfk6ft5nRC8/edit#heading=h.cab7me28s6p6) section.
+Chaos Genius supports multiple data sources including Databases, Datawarehouses and multiple 3rd party connectors. 
+
+Please find a complete list of data sources & setup instructions for each data source in our [Data Sources Catalog](https://docs.google.com/document/d/1y568-aky5EXbR3RhA1kho4kqpxcHifcDJfk6ft5nRC8/edit#heading=h.cab7me28s6p6) section.
+
+If you do not find the data source you are looking to add, please drop us a line on our Community Slack channel. 
 
 For a few of the data sources, Chaos Genius uses [Airbyte](https://docs.airbyte.io/) to load and sync data. For the said data sources, Chaos Genius follows the documentation support provided by Airbyte.
 
