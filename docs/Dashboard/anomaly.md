@@ -85,7 +85,7 @@ In this example, the selected KPI is "Total Sales," which was set up as the sum 
 
 Now let's dive into our Anomaly Detection results!
 
-## Overall KPI Anomaly Chart
+### Overall KPI Anomaly Chart
 
 At the top of your results, a Time Series plot is displayed where each point displays the KPI value for the input time frequency. In this case, a daily frequency is used; this graph shows the **sum of `ItemTotalPrice` each day**.
 
@@ -99,7 +99,7 @@ Notice:
 
 -   As you hover over the graph, points are annotated with the KPI value, and Confidence Interval bounds, Severity Score of the Anomaly & the Datetime.
 
-## Drill Downs
+### Drill Downs
 
 **Having subdimensional drill downs for your anomaly charts can be crucial. Subdimensional drill downs can give you insight into subdimensions that are acting chaotic.**
 
@@ -111,7 +111,7 @@ The drill downs will look similar to this:
 
 A list of Time series charts are displayed where each graph represents a value for a subdimension. You can scroll down your dashboard and look at each of the Drill Down graphs.
 
-## Data Quality
+### Data Quality
 
 **In addition to Anomaly detection drill downs, Chaos Genius provides Data Quality monitoring which can help identify where issues with data quality may be present.**
 
