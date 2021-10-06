@@ -54,15 +54,15 @@ Select the Data Source which contains the underlying data for your KPI. Currentl
 
 ### DataSet Type
 
-As detailed above, you can select a Table or Query based KPI depending on your requirements. 
+As detailed above, you can select a `Table` or `Query` based KPI depending on your requirements. 
 
 ### Metric Column
 
-The column chosen for Metric Column is what will be used for aggregation in order to define your KPI. 
+The column chosen for `Metric Column` is what will be used for aggregation in order to define your KPI. 
 
 ### Aggregate By
 
-Aggregate By has three options:
+`Aggregate By` has three options:
 
 1.  Mean
 
@@ -72,9 +72,9 @@ Aggregate By has three options:
 
 If you need more options for aggregation, then create an issue, or if you wish to contribute more aggregation methods, raise a PR. 
 
-### Datetime Columns
+### Datetime Column
 
-From all the columns displayed for Datetime Columns, you need to choose the one that stores time.
+From all the columns displayed for `Datetime Columns`, you need to choose the one that stores time.
 
 ### Dimension Columns
 
