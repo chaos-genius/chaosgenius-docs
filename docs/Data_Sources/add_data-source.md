@@ -1,12 +1,24 @@
 ---
 sidebar_position: 1
-id: 'data-source-connection-ui'
+id: 'add_data-source'
 ---
 
-# Data Source Connection UI
+# Add Data Source
 
-In this UI, all valid data sources which can be used within the Dashboard are listed here.
+Chaos Genius supports multiple data sources. Please find a complete list of data sources & setup instructions for each data source in our Data Sources Catalog Chaos Genius supports multiple data sources. Please find a complete list of data sources & setup instructions for each data source in our [Data Sources Catalog](https://docs.google.com/document/d/1y568-aky5EXbR3RhA1kho4kqpxcHifcDJfk6ft5nRC8/edit#heading=h.cab7me28s6p6) section.
 
-If you want to add more data sources, click on "New Data Source"
+For a few of the data sources, Chaos Genius uses [Airbyte](https://docs.airbyte.io/) to load and sync data. For the said data sources, Chaos Genius follows the documentation support provided by Airbyte.
 
-![Data Sources UI](/img/connecting-to-data-sources/show-data-sources.png)
+Within the Data Sources section, you can find a list of all the Data sources that have been added along with the Status, Data Source Type, Number of KPIs currently defined using the particular data source, Last sync time and the date of creation.
+
+For adding a new Data Source, click on the "New Data Source" button on top right. You are required to follow the following steps:
+
+-   Name the data source
+
+-   Select the data source type from the drop down
+
+-   Fill in the required credentials
+
+The credential information varies by each Data Source type. Once you've filled in the credentials, you are required to test the connection by pressing "Test Connection".
+
+If the connection is successfully tested, you can add the Data Source by pressing the "Add Data Source" button on the bottom.
