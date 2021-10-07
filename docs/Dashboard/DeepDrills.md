@@ -27,7 +27,7 @@ In addition to the KPI value, you can also see related statistics like Mean, Cou
 
 ## Time Series Plot
 
-**Insert Image**
+![Time Series Plot](/img/kpi-and-dashboard/time_series.png)
 
 Chaos Genius will also produce a helpful time series plot to graphically display your selected KPI over the selected time range.
 
@@ -43,13 +43,15 @@ Just under the Panel Metrics and Time Series, you can view the waterfall plot. T
 
 You can use the dropdown to select the Single Dimensional analysis. Then use the tabs to select a sub-dimension.
 
-**Insert Image**
+![Single Dimensional Waterfall](/img/kpi-and-dashboard/single_dimensional_waterfall.png)
 
 Notice that all subgroups are values of the selected sub-dimension. For the selected single dimension, you can see how specific values of a sub-dimension affect the KPI.
 
 Below the waterfall charts, you can view the impact of each value of the selected sub-dimension. For example, we can see the overall impact of DayOfWeek = Friday. By clicking the expansion arrow next to a single dimensional subgroup, you can perform Drill-Downs and also view a breakdown of all the multidimensional subgroups that compose this subgroup.
 
 By default subgroups are sorted by their absolute impact.
+
+![Single Dimensional Drivers](/img/kpi-and-dashboard/single_dimensional_drivers.png)
 
 ## Multi-Dimensional Waterfall
 
@@ -59,11 +61,11 @@ Each tile in the waterfall represents a subgroup (a combination of 1 or more sub
 
 The "others" tile represents the sum of impacts from all other not-shown subgroups which each individually, had a minimal impact.
 
-**Insert Image**
+![Multi Dimensional Waterfall](/img/kpi-and-dashboard/multi_dimensional_waterfall.png)
 
 Below the waterfall charts, a table of the "Top Drivers" subgroups is displayed along with calculations for aggregations comparing the previous to current month. By default, subgroups are sorted by their absolute impact.
 
-**Insert Image**
+![Multi Dimensional Drivers](/img/kpi-and-dashboard/multi_dimensional_drivers.png)
 
 
 Subgroups could overlap when they have a value for a dimension in common. For example, DayOfWeek = Thursday would overlap with DayOfWeek = Thursday & PeriodofDay = Night as any datum in the latter subgroup would also be included in the former subgroup.
