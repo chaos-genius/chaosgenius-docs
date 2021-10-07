@@ -24,4 +24,6 @@ Once a data source is successfully added, you can start defining KPIs using that
 
 -   **Dimensions**: You can select upto 10 dimensions. These are the Dimensions across which the defined KPI will be monitored for analysis like DeepDrills and Anomaly Detection.
 
-For detailed documentation on KPIs please refer to the section KPI Explorer.
+![Add KPI](/img/Quick_Start/setup_add_kpi.png)
+
+For detailed documentation on KPIs please refer to the section [KPI Explorer](/docs/kpi_explorer/add-kpi.md)
