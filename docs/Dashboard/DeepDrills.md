@@ -19,7 +19,7 @@ At the top, you'll see a summary of your KPI column represented with Panel Metri
 
 ## Panel Metrics
 
-**Insert Image**
+![Panel Metrics](/img/kpi-and-dashboard/panel_metrics.png)
 
 Chaos Genius produces panel metrics from the KPI column to display how the KPI column across various metrics has changed between our two groups of data. For example, here, the total rides were 741874 Last Month, and 775337 This Month. Between Last month and This Month, the KPI `Uber Rides` increased by 33463!
 
