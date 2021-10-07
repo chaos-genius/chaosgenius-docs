@@ -18,4 +18,4 @@ Once the following steps are completed, you can press the "Test Connection" butt
 
 If the connection is successful, press the "Add Data Source" button to complete the step.
 
-For detailed documentation on Data Sources please refer to the section [Data Sources Catalog](/docs/Data_Sources_Catalog/postgres.md)
+For detailed documentation on Data Sources please refer to the section [Data Sources Catalog](/Data_Sources_Catalog/postgres.md)
