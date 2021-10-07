@@ -9,7 +9,7 @@ In order to run Anomaly Detection on the selected KPI, you need to configure in 
 
 ## Anomaly Detector Settings
 
-**Insert Image**
+![Anomaly_Detector](/img/kpi-and-dashboard/anomaly_detector_settings.png)
 
 There are multiple parameters that you can tune to configure the Anomaly Detection analytics for selected KPI. 
 
