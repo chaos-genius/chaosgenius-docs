@@ -27,3 +27,5 @@ Next, follow the following 3 step process from the setup screen:
 -   Add KPI
 
 -   Activate Analytics
+
+![Set Up](/img/Quick_Start/setup.png)
