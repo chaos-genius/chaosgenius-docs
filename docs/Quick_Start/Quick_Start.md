@@ -6,6 +6,11 @@ id: 'Install-Chaos-Genius'
 
 Note: These instructions have been tested on MacOS, Windows 10 and Ubuntu 20.04.
 
+If you are facing any issues with the installation, drop a line to the Chaos Genius team and community on our Slack channel. 
+
+Alternatively, visit our [Troubleshooting](/Troubleshooting/installation.md) section to find resolution for some of the most common issues raised by the    community while trying to set up Chaos Genius. 
+
+
 ## Setup Chaos Genius on MacOS, Ubuntu
 
 Install Docker on your workstation (see [instructions](https://www.docker.com/products/docker-desktop)). 
@@ -23,7 +28,7 @@ docker-compose up
 ```
 Once you see the Chaos Genius success banner, the UI is ready to be accessed at[  ](http://localhost:8000/)<http://localhost:8000>.
 
-Some users using Macs with an M1 chip are facing some problems in deploying Chaos Genius. The problem is related to the chip and Docker. If you are facing any other issues while installing, please visit our section on [Troubleshooting](/Troubleshooting/installation.md)
+Some users using Macs with an M1 chip are facing some problems in deploying Chaos Genius. The problem is related to the chip and Docker. If you are facing any other issues while installing, please visit our section on [Troubleshooting.](/Troubleshooting/installation.md)
 
 ## Setup Chaos Genius on Windows
 
