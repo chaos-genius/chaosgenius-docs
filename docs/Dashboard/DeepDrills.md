@@ -9,7 +9,7 @@ id: 'DeepDrills'
 
 Once you've selected the KPI you want to view, your results will look similar like this:
 
-![RCA Results](/img/kpi-and-dashboard/rca-dashboard.png)
+![DeepDrills Results](/img/kpi-and-dashboard/DeepDrills.png)
 
 The KPI in this example is `Uber Rides` When creating this KPI, it was set up to be a `Sum` aggregation of the `num_rides` column.
 
