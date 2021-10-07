@@ -79,7 +79,7 @@ The ETS model is designed to forecast time series data by observing the trend an
 
 On the Dashboard, make sure to **select the "Anomaly"** tab. Then **select the desired KPI** from the list of configured KPIs on the left sidebar.
 
-![Anomaly Detection Results](/img/kpi-and-dashboard/anomaly-dashboard-overview.png)
+![Anomaly Detection Results](/img/kpi-and-dashboard/anomaly_dashboard_overview.png)
 
 In this example, the selected KPI is "Total Sales," which was set up as the sum aggregation for the `ItemTotalPrice` column of our table.
 
@@ -89,7 +89,7 @@ Now let's dive into our Anomaly Detection results!
 
 At the top of your results, a Time Series plot is displayed where each point displays the KPI value for the input time frequency. In this case, a daily frequency is used; this graph shows the **sum of `ItemTotalPrice` each day**.
 
-![Overall KPI Anomaly Chart](/img/kpi-and-dashboard/anomaly-overall-kpi-chart.png)
+![Overall KPI Anomaly Chart](/img/kpi-and-dashboard/overall_KPI_anomaly_chart.png)
 
 Notice:
 
