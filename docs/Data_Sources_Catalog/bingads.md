@@ -1,6 +1,6 @@
 ---
 sidebar_position: 9
-id: 'Bing_Ads'
+id: 'Bing Ads'
 ---
 
 Chaos Genius uses Airbyte's [Bing Ads](https://docs.airbyte.io/integrations/sources/bing-ads) to sync the following core Streams:
