@@ -36,10 +36,12 @@ With Chaos Genius, we aim to automate the diagnosis and root-cause-analysis for 
 
 **Integrations** - Modular architecture to enable multiple data sources including databases, data warehouses and multiple third party connectors like Stripe, Shopify, Zendesk, Google Analytics, and many others.
 
-[See more on our website. ](https://chaosgenius.io/)
+[See more on our website.](https://chaosgenius.io/)
 
 
 ## Quick Install
+
+To install Chaos Genius, follow the commands
 
 ```
 git clone https://github.com/chaos-genius/chaos_genius
@@ -49,7 +51,7 @@ cd chaos_genius
 docker-compose up
 ```
 
-Visit[  http://localhost:8000](http://localhost:8000/)
+When the installation is complete, visit[http://localhost:8000](http://localhost:8000/)
 
 Follow this [Quick Install guide](https://github.com/chaos-genius/.github)showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
 
@@ -63,7 +65,7 @@ Chaos Genius is a community driven initiative. For any help, discussions, sugges
 
 -   Slack (For discussion with the Community and Chaos Genius team)
 
--   Book Office Hours (Set Up time with Chaos Genius team for any questions or help with setup)
+-   [Book Office Hours](https://calendly.com/pshrimal/30min) (Set Up time with Chaos Genius team for any questions or help with setup)
 
 -   [Blog](https://chaosgenius.io/blog/) (Follow us on latest trends on Data, Machine Learning, Open Source and more)
 
@@ -71,7 +73,7 @@ Chaos Genius is a community driven initiative. For any help, discussions, sugges
 
 Here's a shout out to all our [contributors.](https://github.com/chaos-genius/chaos_genius#contributors-)
 
-Want to contribute? Visit our Github repo and get started with:
+Want to contribute? Visit our [Github repo.](https://github.com/chaos-genius) and:
 
 -   Try Chaos Genius and share your feedback.
 
@@ -83,15 +85,15 @@ Want to contribute? Visit our Github repo and get started with:
 
 -   [Translate our Readme](https://github.com/chaos-genius/.github/blob/main/README.md).
 
--   Show us some love - Give us a star!
+-   Show us some love - Give us a 🌟!
 
 
 
 ## Roadmap
 
-Check out our Roadmap 
+Check out our [Roadmap](/Roadmap/roadmap.md) covering our immediate and 6-12 week milestones. Something missing? Feel free to raise an issue or drop us a line.
 
 ## License
 
-Chaos Genius is licensed under the MIT license. See the LICENSE file for licensing information.
+Chaos Genius is licensed under the MIT license. See the [LICENSE](/License/license.md) section for licensing information.
 
