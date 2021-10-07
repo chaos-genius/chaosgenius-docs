@@ -7,7 +7,7 @@ id: 'add_data-source'
 
 Chaos Genius supports multiple data sources including Databases, Datawarehouses and multiple 3rd party connectors. 
 
-Please find a complete list of data sources & setup instructions for each data source in our [Data Sources Catalog](postgres#) section.
+Please find a complete list of data sources & setup instructions for each data source in our [Data Sources Catalog](postgres#connecting Postgres) section.
 
 If you do not find the data source you are looking to add, please drop us a line on our Community Slack channel. 
 
