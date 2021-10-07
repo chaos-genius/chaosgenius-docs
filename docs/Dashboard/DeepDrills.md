@@ -33,7 +33,7 @@ Chaos Genius will also produce a helpful time series plot to graphically display
 
 ## Changing the time range
 
-![Change RCA time range](/img/kpi-and-dashboard/change-time-range.png)
+![Change Analysis time range](/img/kpi-and-dashboard/change_time_range.png)
 
 Using the Time range dropdown, you can either select to compare groups in a Month-on-Month Week-on-Week or Day-on-Day intervals.
 
