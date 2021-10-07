@@ -15,4 +15,4 @@ Navigating your Chaos Genius dashboard is simple. Just follow these steps:
 
 4.  The resulting analysis shows below!
 
-![Dashboard Overview](/img/kpi-and-dashboard/rca-dashboard-overview.png)
+![Dashboard Overview](/img/kpi-and-dashboard/Dashboard.png)
