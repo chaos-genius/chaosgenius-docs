@@ -5,6 +5,8 @@ id: 'postgres'
 
 # Postgres
 
+## Connecting Postgres
+
 To connect a Postgres database as a data source, you will need the following information:
 
 * **Username**: Username of user with access to database.
