@@ -51,9 +51,9 @@ cd chaos_genius
 docker-compose up
 ```
 
-When the installation is complete, visit[http://localhost:8000](http://localhost:8000/)
+When the installation is complete, visit [http://localhost:8000](http://localhost:8000/)
 
-Follow this [Quick Install guide](https://github.com/chaos-genius/.github)showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
+Follow this [Quick Install guide](https://github.com/chaos-genius/.github) showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
 
 If you want to schedule office hours with our team to help you get set up, please select [some time directly here.](https://calendly.com/pshrimal/30min)
 
