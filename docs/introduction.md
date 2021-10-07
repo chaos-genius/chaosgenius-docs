@@ -38,9 +38,6 @@ With Chaos Genius, we aim to automate the diagnosis and root-cause-analysis for 
 
 [See more on our website. ](https://chaosgenius.io/)
 
-## Architecture
-
-![image](/img/cg-high-level-arch.png)
 
 ## Quick Install
 
@@ -54,7 +51,7 @@ docker-compose up
 
 Visit[  http://localhost:8000](http://localhost:8000/)
 
-Follow this [Quick Install guide](https://github.com/chaos-genius/.github)[  ](https://github.com/airbytehq/airbyte/tree/e378d40236b6a34e1c1cb481c8952735ec687d88/docs/quickstart/getting-started.md)showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
+Follow this [Quick Install guide](https://github.com/chaos-genius/.github)showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
 
 If you want to schedule office hours with our team to help you get set up, please select [some time directly here.](https://calendly.com/pshrimal/30min)
 
@@ -72,7 +69,7 @@ Chaos Genius is a community driven initiative. For any help, discussions, sugges
 
 ## Contributing
 
-Here's a shout out to all our contributors.
+Here's a shout out to all our [contributors.](https://github.com/chaos-genius/chaos_genius#contributors-)
 
 Want to contribute? Visit our Github repo and get started with:
 
