@@ -1,6 +1,6 @@
 ---
 sidebar_position: 11
-id: 'Google_Ads'
+id: 'Google Ads'
 ---
 
 Chaos Genius uses [Airbyte's Google Ads connector](https://docs.airbyte.io/integrations/sources/google-ads) to sync the following core Streams:
