@@ -60,3 +60,85 @@ We are working on following to improve & support data at larger scale
     -   More Robust & Fault Tolerant Task Scheduler
 
     -   Robust Error Messages & Logs that aid in debugging
+
+## Coming in 6-12 weeks
+
+### Features
+
+These are main features that we enable over the next quarter
+
+-   AutoRCA
+
+       -   Correlation with other KPIs
+
+       -   Correlation with events
+
+-   API Access 
+
+       -   KPI Import from BI Tools/dbt
+
+       -   Metabase 
+
+       -   Superset
+
+       -   Looker
+
+       -   dbt
+
+-   Anomaly Detection
+
+       -   Run Frequency - Hourly; Currently 1 day. 
+
+       -   Edit Anomaly Detection Settings for KPIs
+
+-   Alerts
+
+       -   Alert Feedback
+
+-   Data quality (DQ)
+
+       -   Integration with Great Expectations to import DQ metrics
+
+       -   Deeper DQ metrics with focus on data distribution
+
+-   KPI Definition Catalog
+
+       -   Single data source
+
+       -   Multi data source
+
+-   Forecast as input for DeepDrills
+
+-   K8 configuration for horizontal scaling
+
+### Connectors
+
+We will enabling the following new connectors:
+
+-   S3
+
+-   Data lake support including Delta Lake
+
+-   Google Playstore
+
+-   RPA based connectors platform
+
+### Performance Enhancements
+
+We are working on following to improve & support data at larger scale:
+
+-   Data scalability 
+
+       -   Distributed Pandas support - Koalas, Dask
+
+       -   Compressed Data/ Metrics Store (longer term)
+
+-   Interactive analysis at scale
+
+       -   Implementation of Pinot & Druid based data store to enable interactive analysis 
+
+-   ML scalability
+
+       -   Model warm start where possible for heavier models
+
+       -   Feature & model store
