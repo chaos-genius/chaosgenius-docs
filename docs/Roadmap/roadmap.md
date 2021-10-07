@@ -3,7 +3,7 @@ sidebar_position: 1
 id: 'Roadmap'
 ---
 
-Our goal is to be production ready for all companies irrespective of their data infrasatrcture and scale requirements. With that in mind we have created the following roadmap for ourselves. If you see something missing or wish to make suggestions, please drop us a line on our community Slack or raise an issue. 
+Our goal is to make Chaos Genius production ready for all companies irrespective of their data infrasturcture, data sources and scale requirements. With that in mind we have created the following roadmap for Chaos Genius. If you see something missing or wish to make suggestions, please drop us a line on our community Slack or raise an issue. 
 
 ## Coming soon
 
