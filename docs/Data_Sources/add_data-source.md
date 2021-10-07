@@ -7,8 +7,7 @@ id: 'add_data-source'
 
 Chaos Genius supports multiple data sources including Databases, Datawarehouses and multiple 3rd party connectors. 
 
-Please find a complete list of data sources & setup instructions for each data source in our [Data Sources Catalog](/docs/Data_Sources_Catalog/postgres.md) section.
-
+Please find a complete list of data sources & setup instructions for each data source in our 
 If you do not find the data source you are looking to add, please drop us a line on our Community Slack channel. 
 
 For a few of the data sources, Chaos Genius uses [Airbyte](https://docs.airbyte.io/) to load and sync data. For the said data sources, Chaos Genius follows the documentation support provided by Airbyte.
