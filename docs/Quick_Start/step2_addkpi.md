@@ -26,4 +26,4 @@ Once a data source is successfully added, you can start defining KPIs using that
 
 ![Add KPI](/img/Quick_Start/setup_add_kpi.png)
 
-For detailed documentation on KPIs please refer to the section [KPI Explorer](/docs/kpi_explorer/add-kpi.md)
+For detailed documentation on KPIs please refer to the section [KPI Explorer](/kpi_explorer/add-kpi.md)
