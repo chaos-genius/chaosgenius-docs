@@ -1,6 +1,6 @@
 ---
 sidebar_position: 10
-id: 'fb_marketing'
+id: 'Facebook Marketing'
 ---
 
 Chaos Genius uses Airbyte's [Facebook Marketing](https://docs.airbyte.io/integrations/sources/facebook-marketing) to sync the following core Streams:
