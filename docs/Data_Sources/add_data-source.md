@@ -26,10 +26,11 @@ For adding a new Data Source, click on the "New Data Source" button on top right
 
 -   Fill in the required credentials
 
+![Add Data Source](/img/connecting-to-data-sources/add_data_source.png)
+
 The credential information varies by each Data Source type. Once you've filled in the credentials, you are required to test the connection by pressing "Test Connection".
 
-**Insert Image**
 
 If the connection is successfully tested, you can add the Data Source by pressing the "Add Data Source" button on the bottom.
 
-**Insert Image**
+![Test Connection](/img/connecting-to-data-sources/test_connection.png)
