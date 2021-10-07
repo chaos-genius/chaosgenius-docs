@@ -3,7 +3,10 @@ sidebar_position: 1
 id: 'Roadmap'
 ---
 
+Our goal is to be production ready for all companies irrespective of their data infrasatrcture and scale requirements. With that in mind we have created the following roadmap for ourselves. If you see something missing or wish to make suggestions, please drop us a line on our community Slack or raise an issue. 
+
 ## Coming soon
+
 ### Features
 These are main features that we enable soon
 
