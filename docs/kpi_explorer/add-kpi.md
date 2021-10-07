@@ -22,7 +22,7 @@ However, by adding these KPIs to Chaos Genius, you will be able to use our DeepD
 ## Add a KPI
 KPIs can be added on the "KPI Explorer" page. Start by clicking "New KPI".
 
-<img alt="Options For Adding A KPI" src="/img/kpi-and-dashboard/kpi-dashboard.png" width="800" />
+<img alt="Options For Adding A KPI" src="/img/kpi-and-dashboard/KPI_explorer_listing.png" width="800" />
 
 ## Table vs Custom Query KPIs
 
@@ -39,7 +39,7 @@ These KPIs are constructed using your own query. As opposed to Table KPIs, here 
 Before proceeding to define your KPI, ensure you click "Test Query". If no errors are present, the added query is valid. The validity of a query depends on the data source. For example, if the data source is Postgres or MySQL, the query needs to adhere to the database's syntax.
 
 <figure>
-<img alt="Options For Adding A KPI" src="/img/kpi-and-dashboard/adding-kpi.png" width="800" />
+<img alt="Options For Adding A KPI" src="/img/kpi-and-dashboard/adding_KPI.png" width="800" />
 </figure>
 
 ## KPI Parameters
