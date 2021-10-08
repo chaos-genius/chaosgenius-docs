@@ -20,6 +20,7 @@ These are main features that we enable soon
     -   Subpopulation calculation logic 
 
 -   Alerts
+    -   Webhook Support
     -   Backoff for alerting to minimize repeated alerts
 
 ### New Connectors 
