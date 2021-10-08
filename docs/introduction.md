@@ -51,7 +51,7 @@ cd chaos_genius
 docker-compose up
 ```
 
-When the installation is complete, visit [http://localhost:8000](http://localhost:8000/)
+When the installation is complete, visit [http://localhost:8080](http://localhost:8080/)
 
 Visit the [Quick Start](/Quick_Start/Quick_Start.md) section showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
 
