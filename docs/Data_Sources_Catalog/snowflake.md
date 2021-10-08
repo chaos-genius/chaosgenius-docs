@@ -7,7 +7,7 @@ id: 'snowflake'
 
 To connect Snowflake as a data source, you will need the following information:
 
--   **Account Name**: Account Identifier of the snowflake instance (must include the account and region). You can also find more info about the Account Identifier [here](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html). The format of the account should be <code><xxxxxxx>.<region-name></code>. As an example aa00000.ap-south-1. 
+-   **Account Name**: Account Identifier of the snowflake instance (must include the account and region). You can also find more info about the Account Identifier [here](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html). The format of the account should be ``<xxxxxxx>.<region-name>``. As an example aa00000.ap-south-1. 
 
 -   **Username**: Username for logging into your Snowflake account.
 
