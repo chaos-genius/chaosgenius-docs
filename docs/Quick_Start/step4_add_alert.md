@@ -4,9 +4,10 @@ id: 'step4_add_alert'
 ---
 # Step 4: Set-Up Alerts (Optional)
 
-Before adding an alert, you need to setup an alert destination. Currently we offer Slack and Email as Alert Channels. Please see the [Alerts Destinations](/Alerts/Alert_Destination.md) section for more information.
+Before adding an alert, you need to setup an alert destination. Currently we offer Slack and Email as Alert Channels. Please see the 
+[Alerts](/Alerts/Alert_Destination.md) section for more information.
 
-![Alert Chanel](/img/Alerts/alertschannel.png)
+![Alert Channel](/img/Alerts/alertschannel.png)
 
 Once you've configured the channel, you can start setting up alerts for the chosen KPIs.
 
@@ -30,6 +31,6 @@ You need to fill in the following fields:
 
     -   Slack: You can select the channel to which the alert will be triggered.
 
-For more information on setting up alerts, please visit the [Alerts]
+For more information on setting up alerts, please visit the [Alerts](/Alerts/Alert_Destination.md) section.
 
-![Alert Chanel](/img/Alerts/alertsconfig.png)
+![Alert Configuration](/img/Alerts/alertsconfig.png)
