@@ -3,7 +3,6 @@ sidebar_position: 1
 id: 'Add Alert Destination'
 ---
 
-## Add Alert Destination
 
 To add alerts, first you'll need to configure the channel through which you'll get the alerts. Currently we offer Slack and Email. Other channels such as Webhooks, Datadog, Asana are coming soon. If you don't see a channel that you would like us to enable, please raise an issue or reach out to us on our Community Slack. 
 
