@@ -5,25 +5,25 @@ id: 'snowflake'
 
 # Snowflake
 
-Chaos Genius uses Airbyte's [Snowflake connector](https://docs.airbyte.io/integrations/sources/snowflake).
-
 To connect Snowflake as a data source, you will need the following information:
 
--   Account Name
+-   **Account Name**: Account Identifier of the snowflake instance (must include the account and region). You can also find more info about the Account Identifier [here](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html). The format of the account should be <xxxxxxx>.<region-name> (for ex. aa00000.ap-south-1)
 
--   Role
+-   **Username**: Username for logging into your Snowflake account.
 
--   Warehouse
+-   **Password**: Password used for logging into your Snowflake account.
 
--   Database
+-   **Role**: Role used for connecting with your Snowflake account.
 
--   Schema
+-   **Warehouse**: Warehouse name used for query processing.
 
--   Username
+-   **Database**: Name of the database.
 
--   Password
+-   **Schema**: Schema name inside the selected database.
 
-It is recommended to create a dedicated read-only user with access to the relevant schemas.
+Note: It is recommended to create a dedicated read-only user with access to the relevant schemas.
 
-![Snowflake](/img/connecting-to-data-sources/snowflake.png)
+To get your connection information, log into your Snowflake Console. You can find your warehouse, database, schema and login credentials from your Snowflake console.
+ 
+ ![Snowflake](/img/connecting-to-data-sources/snowflake.png)
 
