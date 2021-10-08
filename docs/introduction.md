@@ -53,7 +53,7 @@ docker-compose up
 
 When the installation is complete, visit [http://localhost:8000](http://localhost:8000/)
 
-Follow this [Quick Install guide](https://github.com/chaos-genius/.github) showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
+Visit the [Quick Start](/Quick_Start/Quick_Start.md) section showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
 
 If you want to schedule office hours with our team to help you get set up, please select [some time directly here.](https://calendly.com/pshrimal/30min)
 
@@ -91,9 +91,9 @@ Want to contribute? Visit our [Github repo.](https://github.com/chaos-genius) an
 
 ## Roadmap
 
-Check out our [Roadmap]covering our immediate and 6-12 week milestones. Something missing? Feel free to raise an issue or drop us a line.
+Check out our [Roadmap](/Roadmap/roadmap.md) section covering our immediate and 6-12 week milestones. Something missing? Feel free to raise an issue or drop us a line.
 
 ## License
 
-Chaos Genius is licensed under the MIT license. See the [LICENSE] section for licensing information.
+Chaos Genius is licensed under the MIT license. See the [License](/License/license.md) section for licensing information.
 
