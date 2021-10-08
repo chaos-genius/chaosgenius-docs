@@ -4,7 +4,7 @@ id: 'step4_add_alert'
 ---
 # Step 4: Set-Up Alerts (Optional)
 
-Before adding an alert, you need to setup an alert destination. Currently we offer Slack and Email as Alert Channels. Please see the [Alerts Destinations] section for more information.
+Before adding an alert, you need to setup an alert destination. Currently we offer Slack and Email as Alert Channels. Please see the [Alerts Destinations](/Alerts/Alert_Destination.md) section for more information.
 
 ![Alert Chanel](/img/Alerts/alertschannel.png)
 
