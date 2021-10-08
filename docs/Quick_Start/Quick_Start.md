@@ -26,7 +26,7 @@ cd chaos_genius
 
 docker-compose up
 ```
-Once you see the Chaos Genius success banner, the UI is ready to be accessed at[  ](http://localhost:8000/)<http://localhost:8000>.
+Once you see the Chaos Genius success banner, the UI is ready to be accessed at[http://localhost:8080](http://localhost:8080)
 
 Some users using Macs with an M1 processor (Apple Silicon) are facing some problems in deploying Chaos Genius. The problem is related to the chip and Docker. If you are facing any other issues while installing, please visit our section on [Troubleshooting.](/Troubleshooting/Troubleshooting.md)
 
@@ -44,7 +44,7 @@ cd chaos_genius
 docker-compose up
 
 ```
-Before running these commands, please make sure your docker compose is up to date. Once you see the Chaos Genius success banner, the UI is ready to be accessed at [http://localhost:8080](http://localhost:8000).
+Before running these commands, please make sure your docker compose is up to date. Once you see the Chaos Genius success banner, the UI is ready to be accessed at [http://localhost:8080](http://localhost:8080).
 
 
 ## Next Steps
