@@ -1,3 +1,4 @@
+<!--- This is an HTML comment in Markdown 
 ---
 sidebar_position: 2
 id: 'import-metabase-kpis'
@@ -225,3 +226,5 @@ An example output for `native_questions.json` is:
 ```
 
 The next step is to go to and [add a KPI](adding-kpis#adding-a-kpi) for each of the KPIs listed. Since these are Custom Query KPIs, only the query is provided. However, after you input this data into the `Query` field on Chaos Genius, all of the KPI parameter fields will be populated with values for you to choose from. Also, make sure that there is a data source already added which connects to the information provided by `data_source`. 
+
+-->
