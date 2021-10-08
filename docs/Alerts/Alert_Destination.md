@@ -19,4 +19,4 @@ To receive alerts via Slack please provide your Slack Webhook URL and Slack Chan
 
 To recieve alerts via email you'll need to set up an email account via SMTP (Simple Mail Transfer Protocol). You'll need to add your SMTP Server, port, username and password.
 
-![Email](/img/Alerts/Email.png)
+![Email](/img/Alerts/email.png)
