@@ -5,7 +5,7 @@ id: 'step4_add_alert'
 # Step 4: Set-Up Alerts (Optional)
 
 Before adding an alert, you need to setup an alert destination. Currently we offer Slack and Email as Alert Channels. Please see the 
-[test link](/Dashboard/anomaly.md) section for more information.
+[test link](/Alerts/Alert_Destination.md) section for more information.
 
 ![Alert Channel](/img/Alerts/alertschannel.png)
 
