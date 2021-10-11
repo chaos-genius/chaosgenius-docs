@@ -23,7 +23,7 @@ This is the frequency at which Chaos Genius will run Anomaly Detection. For the 
 
 ### Select A Model
 
-Here you will select which model will be used to run anomaly detection. You can find a list of available models and their use cases here.
+Here you will select which model will be used to run anomaly detection. You can find a list of available models and their use cases is the Anomaly Detection Algorithms section below.
 
 ### Sensitivity
 
@@ -58,21 +58,21 @@ The EWSTD model is a simple extension to the SD model (which assigns equal weigh
 
 Prophet is an open source software released by Facebook. It is a time series forecasting technique based on an additive model that fits non-linear trends with yearly, weekly, and daily seasonality, as well as holiday effects. It's robust to missing data and trend changes, and it usually handles outliers well. Additional details regarding the model are available [here](https://research.fb.com/prophet-forecasting-at-scale/).
 
-### NeuralProphet (Beta)
+### NeuralProphet (Beta - Available on Request)
 
 NeuralProphet retains all the advantages of Facebook's Prophet model, while improving its accuracy, speed and scalability by introducing an improved backend (PyTorch instead of Stan) and using an Auto-Regressive Network (that combines the scalability of neural networks with the interpretability of the Auto-Regressinve models).  A more detailed explanation of the model can be found [here](https://neuralprophet.com/model-overview/).  
 
-**This model is currently in Beta within the Chaos Genius setup.**
+**This model is currently in Beta.**
 
-### Greykite (Beta)
+### Greykite (Beta - Available on Request)
 
 Greykite is an open source package that was created to serve LinkedIn's forecasting needs. Greykite offers two forecasting models: Prophet and Silverkite. Silverkite, the company's core forecasting algorithm, is quick, accurate, and intuitive, making it ideal for interactive and automated forecasting at scale. If you prefer Bayesian models and need logistic growth with changing capacity over time, choose Prophet. Else if speed is important and if you want to forecast a quantile, select Silverkite. A complete list of details are provided [here](https://linkedin.github.io/greykite/docs/0.1.0/html/pages/stepbystep/0100_choose_model.html). 
 
 **This model is currently in Beta within the Chaos Genius setup.**
 
-### Error Trend Seasonality (Coming Soon)
+### Error Trend Seasonality (Experimental)
 
-The ETS model is designed to forecast time series data by observing the trend and seasonality patterns in a time series. An ETS model has three main components: error, trend, and seasonality. Each can be applied either additively, multiplicatively, or none chosen at all. This model will be available in the upcoming version of Chaos Genius.
+The ETS model is designed to forecast time series data by observing the trend and seasonality patterns in a time series. An ETS model has three main components: error, trend, and seasonality. Each can be applied either additively, multiplicatively, or none chosen at all. This model is available in the current version of Chaos Genius but still being tested.
 
 
 ## Analysing Anomaly Detection
