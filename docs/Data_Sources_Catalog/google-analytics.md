@@ -5,6 +5,8 @@ id: 'google-analytics'
 
 # Google Analytics
 
+Chaos Genius uses [Airbyte's Google Analytics connector](https://docs.airbyte.io/integrations/sources/google-analytics-v4) to sync the core Streams. For Custom Reports, refer to [Airbyte's section](https://docs.airbyte.io/integrations/sources/google-analytics-v4#reading-custom-reports) on Custom Reports.
+
 To connect Google Analytics as a data source, you will need the following information:
 
 * **Credentials JSON**
@@ -24,6 +26,8 @@ To connect Google Analytics as a data source, you will need the following inform
 1. Log into the Google Account that has Administrator permissions on Google Analytics.
 2. Go to the [Service Account page](https://console.developers.google.com/iam-admin/serviceaccounts) and click "Create service account".
 3. Add a JSON key for new Service Account and copy the contents of the downloaded JSON file into the "Credentials JSON" field.
+
+You can follow the [Airbyte getting started guide for Google Analytics](https://docs.airbyte.io/integrations/sources/google-analytics-v4#getting-started-airbyte-open-source).
 
 ### Giving Service Account access to Google Analytics
 
