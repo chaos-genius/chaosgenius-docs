@@ -68,7 +68,7 @@ NeuralProphet retains all the advantages of Facebook's Prophet model, while impr
 
 Greykite is an open source package that was created to serve LinkedIn's forecasting needs. Greykite offers two forecasting models: Prophet and Silverkite. Silverkite, the company's core forecasting algorithm, is quick, accurate, and intuitive, making it ideal for interactive and automated forecasting at scale. If you prefer Bayesian models and need logistic growth with changing capacity over time, choose Prophet. Else if speed is important and if you want to forecast a quantile, select Silverkite. A complete list of details are provided [here](https://linkedin.github.io/greykite/docs/0.1.0/html/pages/stepbystep/0100_choose_model.html). 
 
-**This model is currently in Beta within the Chaos Genius setup.**
+**This model is currently in Beta.**
 
 ### Error Trend Seasonality (Experimental)
 
