@@ -87,7 +87,7 @@ Once all the details for a new KPI are filled in and you click "Add KPI", Chaos 
 
 ## Import KPIs (Coming Soon)
 
-You will be soon able to import KPIs from your favorite BI tools like Metabase, Superset or directly from dbt. Follow Issue #123 to track updates.
+You will be soon able to import KPIs from your favorite BI tools like Metabase, Superset or directly from dbt. 
 
 ## Next Steps: Analytics
 
