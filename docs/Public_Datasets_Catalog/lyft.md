@@ -21,7 +21,7 @@ The table for this dataset is `lyft_data`.
 
 ## Data schema
 
-Lyft dataset has the following structure:
+Ridehailing dataset has the following structure:
 
 - source
 - destination
