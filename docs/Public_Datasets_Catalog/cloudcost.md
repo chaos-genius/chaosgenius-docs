@@ -5,7 +5,7 @@ id: 'cloudcost'
 
 # Cloud Cost
 
-Cloud Cost is based on [Mircsoft's Cloud Monitoring Dataset](https://github.com/microsoft/cloud-monitoring-dataset). This is a set of real-world time series derived from Microsoft service and client telemetry signals. It is used for development, evaluation and improvement of anomaly detection algorithms in Microsoft's cloud monitoring tools. We extrapolated this data to 2021 to provide live testing for analytics. 
+Cloud Cost is based on [Microsoft's Cloud Monitoring Dataset](https://github.com/microsoft/cloud-monitoring-dataset). This is a set of real-world time series derived from Microsoft service and client telemetry signals. It is used for development, evaluation and improvement of anomaly detection algorithms in Microsoft's cloud monitoring tools. We extrapolated this data to 2021 to provide live testing for analytics. 
 
 ## Accessing the data
 
@@ -32,4 +32,4 @@ This is a highly granular data and would be suitable for testing hourly anomaly 
 
 ## Acknowledgement
 
-Microsoft Open Source
+We thank [Microsoft Open Source](https://opensource.microsoft.com/) for providing the base dataset. 

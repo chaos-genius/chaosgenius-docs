@@ -3,9 +3,9 @@ sidebar_position: 2
 id: 'lyft'
 ---
 
-# Ridehailing Prices
+# Ridehailing Price
 
-This dataset is based on a [Kaggle dataset](https://www.kaggle.com/ravi72munde/uber-lyft-cab-prices) that simulates rides in Boston for Lyft & Uber. We extrapolated this data for Lyft to 2021 to provide live testing for analytics. 
+This dataset is based on a [Kaggle dataset](https://www.kaggle.com/ravi72munde/uber-lyft-cab-prices) that simulates rides in Boston for Lyft & Uber. We extrapolated this data for Lyft to 2021 to provide live analytics. 
 
 ## Accessing the data
 
@@ -35,4 +35,4 @@ Ridehailing dataset has the following structure:
 
 ## Acknowledgement
 
-[RaviMunde](https://www.kaggle.com/ravi72munde)
+We thank [RaviMunde](https://www.kaggle.com/ravi72munde) for providing the base dataset. 
