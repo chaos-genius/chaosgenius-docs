@@ -3,9 +3,9 @@ sidebar_position: 3
 id: 'cloudcost'
 ---
 
-# E-Commerce Transactions
+# Cloud Cost
 
-E-Commerce Transactions is based on a [UCI ML repository dataset](https://archive.ics.uci.edu/ml/datasets/online+retail). This is a transnational data set which contains all the transactions occurring for a UK-based and registered non-store online retail. We extrapolated this data to 2021 to provide live testing for analytics. 
+Cloud Cost is based on [Mircsoft's Cloud Monitoring Dataset](https://github.com/microsoft/cloud-monitoring-dataset). This is a set of real-world time series derived from Microsoft service and client telemetry signals. It is used for development, evaluation and improvement of anomaly detection algorithms in Microsoft's cloud monitoring tools. We extrapolated this data to 2021 to provide live testing for analytics. 
 
 ## Accessing the data
 
@@ -17,23 +17,19 @@ This dataset is available as a public Postgres cluster with following credential
 - **Username:** `read_only`
 - **Password:** `chaosgenius_io`
 
-The table for this dataset is `ecom_retail_data`. 
+The table for this dataset is `cloud_cost`. 
 
 ## Data schema
 
-E-Commerce transactions dataset has the following structure:
+Cloud Cost dataset has the following structure:
 
 - date: datetime column
-- DayOfWeek
-- PurchaseTime
-- Country 
-- CustomerID: high cardinality column
-- InvoiceNo: high cardinality column
-- StockCode: high cardinality column
-- Quantity
-- ItemTotalPrice: ideal metric column
-- UnitPrice 
+- region
+- service
+- cloud_cost: ideal metric column
+
+This is a highly granular data and would be suitable for testing hourly anomaly detection. 
 
 ## Acknowledgement
 
-Dr Daqing Chen, Director: Public Analytics group. chend '@' lsbu.ac.uk, School of Engineering, London South Bank University, London SE1 0AA, UK.
+Microsoft Open Source

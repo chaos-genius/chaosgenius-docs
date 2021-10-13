@@ -3,9 +3,9 @@ sidebar_position: 1
 id: 'ecomm'
 ---
 
-# E-Commerce Transactions
+# E-Commerce Transaction
 
-E-Commerce Transactions is based on a [UCI ML repository dataset](https://archive.ics.uci.edu/ml/datasets/online+retail). This is a transnational data set which contains all the transactions occurring for a UK-based and registered non-store online retail. We extrapolated this data to 2021 to provide live testing for analytics. 
+E-Commerce Transaction is based on a [UCI ML repository dataset](https://archive.ics.uci.edu/ml/datasets/online+retail). This is a transnational data set which contains all the transactions occurring for a UK-based and registered non-store online retail. We extrapolated this data to 2021 to provide live testing for analytics. 
 
 ## Accessing the data
 
@@ -21,7 +21,7 @@ The table for this dataset is `ecom_retail_data`.
 
 ## Data schema
 
-E-Commerce transactions dataset has the following structure:
+E-Commerce transaction dataset has the following structure:
 
 - date: datetime column
 - DayOfWeek
