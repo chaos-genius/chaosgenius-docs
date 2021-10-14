@@ -60,7 +60,8 @@ These are main features that we enable over the next quarter
        -   Correlation with events
 
 -   API Access 
-       -   KPI Import from BI Tools/dbt
+
+-   KPI Import from BI Tools/dbt
        -   Metabase 
        -   Superset
        -   Looker
