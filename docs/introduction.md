@@ -73,7 +73,7 @@ Chaos Genius is a community driven initiative. For any help, discussions, sugges
 
 Here's a shout out to all our [contributors.](https://github.com/chaos-genius/chaos_genius#contributors-)
 
-Want to contribute? Visit our [Github repo.](https://github.com/chaos-genius) and:
+Want to contribute? Visit our [Github repo](https://github.com/chaos-genius) and:
 
 -   Try Chaos Genius and share your feedback.
 
