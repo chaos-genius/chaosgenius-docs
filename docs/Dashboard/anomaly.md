@@ -15,7 +15,8 @@ There are multiple parameters that you can tune to configure the Anomaly Detecti
 
 ### Time Window
 
-Time Window is the historical data which will be used to train the selected model on your data to learn about the trends, seasonality and patterns for the selected KPI. For the current version of Chaos Genius, this interval is pre-selected to 90 days. In future versions, this will be configurable.
+Time Window is the historical data points which will be used to train the selected model on your data to learn about the trends, seasonality and patterns for the selected KPI. If you choose a time window of 90 days with daily frequency data, past 90 days of data will be examined and if you have hourly data, 90 previous hours will be utilized. <br>
+Disclaimer: If the window size is greater than the data availbable, anomaly detection won't run. We are currently working on resolving this issue.
 
 ### Model Frequency
 
