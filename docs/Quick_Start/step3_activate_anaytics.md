@@ -8,7 +8,7 @@ Once a KPI has been setup, Chaos Genius automatically picks up the KPI and initi
 
 For setting up Anomaly Detection, one needs to Configure the Anomaly Detector with the following settings. It takes anywhere from 2-6 hours depending on the size of the data for the one time setup of Anomaly Detection.
 
-*Please note that once the Anomaly Detector has been configured, it cannot be changed. You will need to re-define the KPI in order to run a different Anomaly Detector algorithm. The edit functionality will be enabled in subsequent releases. Please follow the issue #1234 for updates.*
+*Please note that once the Anomaly Detector has been configured, it cannot be changed. You will need to re-define the KPI in order to run a different Anomaly Detector algorithm. The edit functionality will be enabled in subsequent releases. 
 
 ![Configure Analytics](/img/Quick_Start/setup_analytics.png)
 
