@@ -1,12 +1,10 @@
 ---
 sidebar_position: 1
-id: 'Troubleshooting'
+id: 'tips'
 ---
-# Troubleshooting
+# Tips for beginners
 
-## Tips for beginners!
-
-### Quick Start with Public Data Sets
+## Quick Start with Public Data Sets
 
 * Use our Public Data Sets on Postgres and Snowflake instances as a sanity check while setting up analytics. We are making these available for other Databases and Data Warehouses as well.
   1. Postgres: details for the datasets can be found here: ([https://docs.chaosgenius.io/docs/Public\_Datasets\_Catalog/ecomm](https://docs.chaosgenius.io/docs/Public_Datasets_Catalog/ecomm))
@@ -21,7 +19,7 @@ id: 'Troubleshooting'
   * "password": "ChaosGenius001"  
 
   
-### If stuck, share the following docker logs on Slack for quick debug
+## If stuck, share the following docker logs on Slack for quick debug
 
 If our troubleshooting guide doesn't fix your issue you can share your docker logs with us. We will be able to replicate and investigate the issue in a better and faster way.  
 
