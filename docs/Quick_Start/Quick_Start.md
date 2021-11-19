@@ -8,7 +8,7 @@ Note: These instructions have been tested on MacOS, Windows 10 and Ubuntu 20.04.
 
 If you are facing any issues with the installation, drop a line to the Chaos Genius team and community on our Slack channel. 
 
-Alternatively, visit our [Troubleshooting](/Troubleshooting/tips.md) section to find resolution for some of the most common issues raised by the community while trying to set up Chaos Genius. 
+Alternatively, visit our [Troubleshooting](#) section to find resolution for some of the most common issues raised by the community while trying to set up Chaos Genius. 
 
 
 ## Setup Chaos Genius on MacOS, Ubuntu
