@@ -17,37 +17,37 @@ docker-compose up
 
 ### Anomaly Detection Parameters
 
-#### MULTIDIM\_ANALYSIS\_FOR\_ANOMALY (default=False)
+`MULTIDIM_ANALYSIS_FOR_ANOMALY (default=False)`
 
 Enables the generation of multi-dimensional subgroups. For example, if we have 2 dimensions like Country and Day of Week, with this disabled we get subgroups like Country = India, Day of Week = Monday etc, but enabling this gives us subgroups like Country = India and Day of Week = Monday, Country = US and Day of Week = Monday etc.
 
-#### MAX\_SUBDIM\_CARDINALITY (default=100)
+`MAX_SUBDIM_CARDINALITY (default=100)`
 
 Sets the maximum number of unique values allowed in a dimension. If a dimension exceeds this, it will not be considered during the analysis.
 
-#### TOP\_DIMENSIONS\_FOR\_ANOMALY\_DRILLDOWN (default=10)
+`TOP_DIMENSIONS_FOR_ANOMALY_DRILLDOWN (default=10)`
 
 Sets the maximum number of sub-dimensions shown in the Anomaly Drill Downs.
 
-#### MIN\_DATA\_IN\_SUBGROUP (default=30)
+`MIN_DATA_IN_SUBGROUP (default=30)`
 
 Sets the minimum number of data points required to be in a subgroup for it to be considered for Anomaly Detection.
 
-#### MAX\_FILTER\_SUBGROUPS\_ANOMALY (default=100)
+`MAX_FILTER_SUBGROUPS_ANOMALY (default=100)`
 
 Sets the maximum number of subgroups considered for Anomaly Detection.
 
-#### MAX\_ANOMALY\_SLACK\_DAYS (default=14)
+`MAX_ANOMALY_SLACK_DAYS (default=14)`
 
 Sets the maximum number of days for which we can have no data and still consider the KPI for Anomaly Detection.
 
 ### DeepDrills Parameters
 
-#### MAX\_DEEPDRILLS\_SLACK\_DAYS (default=14)
+`MAX_DEEPDRILLS_SLACK_DAYS (default=14)`
 
 Sets the maximum number of days for which we can have no data and still consider the KPI for DeepDrills
 
-#### MAX\_ROWS\_FOR\_DEEPDRILLS (default=10000000)
+`MAX_ROWS_FOR_DEEPDRILLS (default=10000000)`
 
 Sets the maximum number of rows allowed in a KPI for it to be added.  
 
@@ -55,8 +55,8 @@ Sets the maximum number of rows allowed in a KPI for it to be added.
 
 Posthog Telemetry is enabled by default. It can be disabled by setting the following in the .env file:  
 
-REACT\_APP\_DISABLE\_TELEMETRY=true  
+`REACT_APP_DISABLE_TELEMETRY=true ` 
 
 Error collection using sentry is disabled by default. See <<Add link to Troubleshooting-\>Sentry\>\> for instructions to enable it.  
 
-SENTRY\_DSN=""
+`SENTRY_DSN=""`
