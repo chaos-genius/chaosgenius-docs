@@ -46,6 +46,20 @@ docker-compose up
 ```
 Before running these commands, please make sure your docker compose is up to date. Once you see the Chaos Genius success banner, the UI is ready to be accessed at [http://127.0.0.1:8080](http://127.0.0.1:8080).
 
+## Docker Upgrade
+
+To upgrade Chaos Genius from a previous version, pull the latest changes from both the repository and dockerhub and then restart the services.  
+
+```
+git pull
+
+docker-compose pull
+
+docker-compose stop
+
+docker-compose up
+```
+
 
 ## Next Steps
 
