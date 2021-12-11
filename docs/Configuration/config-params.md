@@ -11,9 +11,11 @@ Chaos Genius tries to make it easy to update the analytics parameters, hyperpara
 
 Your analytics can be configured by modifying parameters in the .env file. After editing the file, restart Chaos Genius using:  
 
+```bash
 docker-compose stop
 
 docker-compose up
+```
 
 ### Anomaly Detection Parameters
 
@@ -53,10 +55,14 @@ Sets the maximum number of rows allowed in a KPI for it to be added. You can inc
 
 ### Analytics Parameters
 
-Posthog Telemetry is enabled by default. It can be disabled by setting the following in the .env file:  
+#### Posthog
 
-`REACT_APP_DISABLE_TELEMETRY=true ` 
+Posthog Telemetry is enabled by default. It can be disabled by setting the following in the `.env` file:
 
-Error collection using sentry is disabled by default. See <<Add link to Troubleshooting-\>Sentry\>\> for instructions to enable it.  
+```
+REACT_APP_DISABLE_TELEMETRY=true
+```
 
-`SENTRY_DSN=""`
+#### Sentry
+
+Error collection using sentry is disabled by default. See [Sentry logging](/Troubleshooting/sentry_logging.md) for instructions to enable it.
