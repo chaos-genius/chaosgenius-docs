@@ -3,7 +3,7 @@ sidebar_position: 1
 id: 'local-setup'
 ---
 
-# Setting up Chaos Genius on a Local System
+# Local System Setup
 
 ## Step 1: Installing pre-requisites
 

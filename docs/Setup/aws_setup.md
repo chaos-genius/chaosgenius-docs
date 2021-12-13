@@ -3,7 +3,7 @@ sidebar_position: 2
 id: 'aws-setup'
 ---
 
-# Setting up Chaos Genius on AWS
+# AWS Deployment
 
 ## Step 1: Setting up your account
 

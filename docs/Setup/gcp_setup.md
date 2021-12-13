@@ -3,7 +3,7 @@ sidebar_position: 3
 id: 'gcp-setup'
 ---
 
-# Setting up Chaos Genius on GCP
+# GCP Deployment
 
 ## Step 1: Setting up your account
 
