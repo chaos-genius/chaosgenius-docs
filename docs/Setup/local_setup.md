@@ -41,4 +41,6 @@ You need to install Docker on Windows workstation, please follow the steps menti
 
 ## Step 4: Access the Dashboard
 
-Once you see the Chaos Genius success banner, the UI is ready to be accessed at `localhost:8080`.
+Once you see the Chaos Genius success banner, the UI is ready to be accessed at `localhost:8080`.  
+If everything was successful, you should see this page at the URL:
+![Initial UI Screen](/img/Setup/ui-init.png)

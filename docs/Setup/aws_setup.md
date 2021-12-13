@@ -54,6 +54,8 @@ Naviate to EC2 Management Console and select Launch Instance. Follow the followi
 
 ## Step 6: Access the Dashboard
 
-Once you see the Chaos Genius success banner, the UI is ready to be accessed at `<Public IP>:8080`. 
+Once you see the Chaos Genius success banner, the UI is ready to be accessed at `<Public IP>:8080`.  
+If everything was successful, you should see this page at the URL:
+![Initial UI Screen](/img/Setup/ui-init.png)
 
 Note: Check your dashboard for your machine’s public IP.
