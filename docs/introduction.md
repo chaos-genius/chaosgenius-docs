@@ -57,6 +57,7 @@ Visit the [Quick Start](/Quick_Start/Quick_Start.md) section showing you how to 
 
 If you want to schedule office hours with our team to help you get set up, please select [some time directly here.](https://calendly.com/pshrimal/30min)
 
+To upgrade Chaos Genius visit the Upgrading Chaos Genius section under Operator Guides.
 ## Community
 
 Chaos Genius is a community driven initiative. For any help, discussions, suggestions feel free to reach out to the Chaos Genius team and the Community on either of the following channels. 
