@@ -9,7 +9,7 @@ This dataset is based on a [Kaggle dataset](https://www.kaggle.com/ravi72munde/u
 
 ## Accessing the data
 
-The table for this dataset is `lyft_data`. Visit our [Data Source Credentials](/docs/Public_Datasets_Catalog/access_data) page to get the appropriate database or data warehouse credentials.
+The table for this dataset is `lyft_data`. Visit our [Accessing the Data](/docs/Public_Datasets_Catalog/access_data) page to get the appropriate database or data warehouse credentials.
 
 ## Data schema
 

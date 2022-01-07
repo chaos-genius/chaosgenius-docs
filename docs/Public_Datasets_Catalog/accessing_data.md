@@ -3,7 +3,7 @@ sidebar_position: 1
 id: 'access_data'
 ---
 
-# Data Source Credentials
+# Accessing the Data
 
 While setting up analytics, you can use our Public Data Sets as a quick check to see if everything is running smoothly. 
 

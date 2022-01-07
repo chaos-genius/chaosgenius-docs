@@ -9,7 +9,7 @@ Cloud Cost is based on [Microsoft's Cloud Monitoring Dataset](https://github.com
 
 ## Accessing the data
 
-The table for this dataset is `cloud_cost`. Visit our [Data Source Credentials](/docs/Public_Datasets_Catalog/access_data) page to get the appropriate database or data warehouse credentials.
+The table for this dataset is `cloud_cost`. Visit our [Accessing the Data](/docs/Public_Datasets_Catalog/access_data) page to get the appropriate database or data warehouse credentials.
 
 ## Data schema
 

@@ -9,7 +9,7 @@ E-Commerce Transaction is based on a [UCI ML repository dataset](https://archive
 
 ## Accessing the data
 
-The table for this dataset is `ecom_retail_data`. Visit our [Data Source Credentials](/docs/Public_Datasets_Catalog/access_data) page to get the appropriate database or data warehouse credentials.
+The table for this dataset is `ecom_retail_data`. Visit our [Accessing the Data](/docs/Public_Datasets_Catalog/access_data) page to get the appropriate database or data warehouse credentials.
 
 ## Data schema
 
