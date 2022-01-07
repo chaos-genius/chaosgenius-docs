@@ -9,15 +9,7 @@ E-Commerce Transaction is based on a [UCI ML repository dataset](https://archive
 
 ## Accessing the data
 
-This dataset is available as a public Postgres cluster with following credentials:
-
-- **Host:** `chaosgenius-public.cjzi0pwi8ki4.ap-south-1.rds.amazonaws.com`
-- **Port:** 5432
-- **Database name:** `dataset`
-- **Username:** `read_only`
-- **Password:** `chaosgenius_io`
-
-The table for this dataset is `ecom_retail_data`. 
+The table for this dataset is `ecom_retail_data`. Visit our [Data Source Credentials](/docs/Public_Datasets_Catalog/access_data) page to get the appropriate database or data warehouse credentials.
 
 ## Data schema
 
