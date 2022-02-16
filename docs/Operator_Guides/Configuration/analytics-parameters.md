@@ -29,6 +29,3 @@ Save the file and restart Chaos Genius:
 docker-compose stop
 docker-compose up
 ```
-
-See [Sentry logging](/Troubleshooting/sentry_logging.md) for instructions to enable it.
-
