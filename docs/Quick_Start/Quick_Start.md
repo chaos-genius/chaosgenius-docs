@@ -30,7 +30,7 @@ docker-compose up
 
 Once you see the Chaos Genius success banner, the UI is ready to be accessed at [http://localhost:8080](http://localhost:8080)
 
-Macs with Apple Silicon (M1) processors are currently not supported due to issues related to Docker.
+Macs with Apple Silicon (M1) processors are currently not supported due to issues related to Docker. Follow [this issue](https://github.com/chaos-genius/chaos_genius/issues/292) for updates.
 
 If you face any other issues while installing, please visit the [Troubleshooting](/Troubleshooting/tips.md) section.
 
