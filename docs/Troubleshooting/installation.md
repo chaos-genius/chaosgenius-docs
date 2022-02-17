@@ -10,38 +10,51 @@ id: 'installation'
 
 By default Docker configures resources such as CPU, memory, disk and network. Sometimes these default settings are not adequate and you might run into issues such as an Out-of-Memory Error.
 
-**Possible Solutions: **
+**Possible Solutions:**
 
-Chaos Genius requires you to set Docker Memory Space to 8 GB before installation. To configure memory or any other resources, you can follow the steps provided in the following link: [https://docs.docker.com/desktop/mac/\#resources](https://docs.docker.com/desktop/mac/#resources)  
+Chaos Genius requires you to set Docker Memory Space to 4 GB (8 GB in case you're running the `thirdparty` version) before installation. To configure memory or any other resources, you can follow the steps provided in the following links:
+- [For Mac systems](https://docs.docker.com/desktop/mac/#resources)
+- [For Windows systems](https://docs.docker.com/desktop/windows/#resources)
+
+Note: this does not apply to Linux.
 
 ### Problem: Experiencing Disk Space Error
 
-Chaos Genius services are not able to write to the disk. In the docker logs you may see an error message that is appended by:  No space left on device
+Chaos Genius services are not able to write to the disk. In the docker logs you may see an error message that is appended by: `No space left on device`.
 
-**Possible Solutions: **
+**Possible Solutions:**
 
-This typically happens with containers that require storage like redis or postgres.. In case of no space left on device messages, please try 'docker system prune --volumes'. This link should be helpful for this:[https://forums.docker.com/t/docker-no-space-left-on-device/69205/7](https://forums.docker.com/t/docker-no-space-left-on-device/69205/7). Always ensure there are no residual volumes or data left behind from previous builds for a clean installation across major versions.   
+This typically happens with containers that require storage such as Redis or Postgres. Please ensure that the instance running Chaos Genius has at least 20 GB of storage space.
+
+To free up storage space taken up by docker, please see the following discussion: [https://forums.docker.com/t/docker-no-space-left-on-device/69205/2](https://forums.docker.com/t/docker-no-space-left-on-device/69205/2).
+
+Note: `docker system prune` or `docker volume prune` can help reclaim space taken up by Docker, but this is a destructive operation that can erase data stored by Chaos Genius or other containers running on the system.
 
 ### Problem: Facing Connection Timeout Issues
 
-After cloning the Chaos Genius repository, the 'docker-compose up' command fails to run citing a Connection Timeout Error. You will see either of the following statements as part of your error message on the terminal: 
+After cloning the Chaos Genius repository, the `docker-compose up` command fails to run citing a Connection Timeout Error. You will see either of the following statements as part of your error message on the terminal:
 
-* UnixHTTPConnectionPool(host='localhost', port=None): Read timed out.
-* ERROR: An HTTP request took too long to complete.
+* `UnixHTTPConnectionPool(host='localhost', port=None): Read timed out.`
+* `ERROR: An HTTP request took too long to complete.`
 
-**Possible Solutions: **
+**Possible Solutions:**
 
-This error usually occurs when you have a slow network connection. Possible fix for this issue is to increase the value of the COMPOSE\_HTTP\_TIMEOUT environment variable. This variable configures the time (in seconds) a request to the Docker daemon is allowed to hang before Compose considers it failed. It defaults to 60 seconds. Try using the command: 'COMPOSE\_HTTP\_TIMEOUT=200 docker-compose up'.  
-  
+This error usually occurs when you have a slow network connection or a slow system. A possible fix for this issue is to increase the value of the `COMPOSE_HTTP_TIMEOUT` environment variable. This variable configures the time (in seconds) a request to the Docker daemon is allowed to hang before Compose considers it failed. It defaults to 60 seconds. Try using the command: `COMPOSE_HTTP_TIMEOUT=200 docker-compose up`.
 
-### Problem: Resolving Port Conflicts
+### Problem: Port Conflicts
 
-While running Chaos Genius on Docker, each container runs on a specific port. You will run into an error if you have any other service using those ports. You get the following error message:
+You may run into an error if you have any other service using the port(s) used by Chaos Genius. You get the following error message:
 
-Error starting userland proxy: listen tcp4 0.0.0.0:<port-number\>: bind: address already in use
+```
+Error starting userland proxy: listen tcp4 0.0.0.0:<port-number>: bind: address already in use
+```
 
-**Possible Solutions: **
+**Possible Solutions:**
 
-The ports listed below are being exposed by the containers. Make sure none of these ports are being used by any other services on the system before starting up ChaosGenius.
+By default, Chaos Genius runs on port `8080`. Ensure that this port is not being used by any other service before starting up Chaos Genius.
 
-Ports : \[5000, 8080, 8000, 8001, 7233, 6379, 5433\]
+Note: When installing the `thirdparty` version, ports `8080` and `5433` are used.
+
+In case the ports cannot be freed, you can manually change the port used by Chaos Genius.
+- If you're using the default installation, open the `docker-compose.yml` file present in the directory cloned during installation. Search for and replace `8080:8080` with `<your-port-here>:8080`.
+- If you're using the `thirdparty` installation, change the `8080` port as above. Additionally, search for and replace `5433:5432` with `<your-port-here>:5432`.
