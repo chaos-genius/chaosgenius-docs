@@ -5,7 +5,7 @@ id: supported-timezones
 
 # Supported Timezones
 
-This is the list of timezones and their UTC offsets supported by Chaos Genius.
+This is the list of timezones and their UTC offsets supported by Chaos Genius. This can be configured using the .env file. For more information please refer to the [Config Param Guide](/Operator_Guides/Configuration/config-params.md).
 
 | Name | UTC Offset |
 | ---------- | ---------- |
