@@ -31,6 +31,15 @@ You need to fill in the following fields:
 
     -   Slack: You can select the channel to which the alert will be triggered.
 
+-  **Send as**: Here you can select whether you want alerts to be sent individually (as soon as anomaly is computed) or as a **daily consolidated report**.
+
+:::note
+Consolidated [Reports need to be configured](/Alerts/Alert_Report_Settings.md) to receive them.
+:::
+
 For more information on setting up alerts, please visit the [Alerts](/Alerts/Alert_Destination.md) section.
 
-![Alert Configuration](/img/Alerts/alertsconfig.png)
+![Add KPI alert](/img/Alerts/add_alert_1.png)
+
+![Add KPI alert - channel config](/img/Alerts/add_alert_2.png)
+

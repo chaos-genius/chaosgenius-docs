@@ -20,7 +20,7 @@ Install Docker on your workstation (see [instructions](https://www.docker.com/ge
 
 ### Default installation
 
-If you only need databases and data warehouses such as Postgres, MySQL, BigQuery, Redshift or Snowflake, use these commands:
+If you only need databases and data warehouses such as `Postgres`, `MySQL`, `BigQuery`, `Redshift` or `Snowflake`, use these commands:
 
 ```
 git clone https://github.com/chaos-genius/chaos_genius
