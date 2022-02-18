@@ -9,7 +9,7 @@ Chaos Genius tries to make it easy to update various analytics parameters as wel
 
 ## Updating Parameters
 
-Your analytics can be configured by modifying parameters in the `.env` file. After editing the file, restart Chaos Genius using these commands for the default version:
+Chaos Genius can be configured by modifying parameters in the `.env` file. After editing the file, restart Chaos Genius using these commands for the default version:
 
 ```
 docker-compose stop
@@ -27,6 +27,14 @@ docker-compose -f docker-compose.thirdparty.yml stop
 docker-compose -f docker-compose.thirdparty.yml up
 ```
 :::
+
+## Required Parameters
+
+These parameters must be set for a fully working Chaos Genius installation.
+
+| Name | Type | Default | Description |
+| ---- | ---- | ------- | ----------- |
+| `CHAOSGENIUS_WEBAPP_URL` | string | | URL of the Chaos Genius deployment. Usually, this will be `http://<ip-address-or-hostname>:8080/` (`http://localhost:8080/` in local installations). This will be the URL prefix used in email and slack alerts when linking to KPIs and the Alerts Dashboard. |
 
 ## General Parameters
 

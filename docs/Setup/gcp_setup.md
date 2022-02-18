@@ -56,6 +56,8 @@ Create or log into your GCP account & select appropriate project.
 
 ## Step 6: Start the containers
 
+1. Setup all of the [required parameters](/Operator_Guides/Configuration/config-params.md#required-parameters).
+
 1. For Default Installation, bring containers to life with:  
     ```sudo docker-compose up```  
 
@@ -71,7 +73,7 @@ Create or log into your GCP account & select appropriate project.
     ```
     :::
 
-2. To view real time logs run:  
+1. To view real time logs run:  
     ```
     sudo docker-compose logs -f
     ```

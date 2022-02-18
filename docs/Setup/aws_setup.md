@@ -44,6 +44,8 @@ Naviate to EC2 Management Console and select Launch Instance. Follow the followi
 
 ## Step 5: Start the containers
 
+1. Setup all of the [required parameters](/Operator_Guides/Configuration/config-params.md#required-parameters).
+
 1. For Default Installation, bring containers to life with:  
     ```sudo docker-compose up```  
 
@@ -59,7 +61,7 @@ Naviate to EC2 Management Console and select Launch Instance. Follow the followi
     ```
     :::
 
-2. To view real time logs run:
+1. To view real time logs run:
     ```
     sudo docker-compose logs -f
     ```
