@@ -41,7 +41,7 @@ With Chaos Genius, we aim to automate the diagnosis and root-cause-analysis for 
 
 ## Quick Install
 
-To install Chaos Genius, follow the commands
+If you only need databases and data warehouses such as Postgres, MySQL, BigQuery, Redshift or Snowflake, use these commands:
 
 ```
 git clone https://github.com/chaos-genius/chaos_genius
@@ -49,6 +49,15 @@ git clone https://github.com/chaos-genius/chaos_genius
 cd chaos_genius
 
 docker-compose up
+```
+
+If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use these commands:
+```
+git clone https://github.com/chaos-genius/chaos_genius
+
+cd chaos_genius
+
+docker-compose -f docker-compose.thirdparty.yml up
 ```
 
 When the installation is complete, visit [http://127.0.0.1:8080](http://127.0.0.1:8080/)
