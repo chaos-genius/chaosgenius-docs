@@ -87,9 +87,7 @@ Want to contribute? Visit our [Github repo](https://github.com/chaos-genius) and
 
 -   Try Chaos Genius and share your feedback.
 
--   Submit an issue. 
-
--   Create a pull request. Here's a [list of issues](https://github.com/chaos-genius/chaos_genius/issues) to start with.
+-   Submit an issue.
 
 -   Share a part of the documentation that you find difficult to follow.
 
@@ -97,7 +95,9 @@ Want to contribute? Visit our [Github repo](https://github.com/chaos-genius) and
 
 -   Show us some love - Give us a 🌟!
 
+-   Create a pull request. Here's a [list of issues](https://github.com/chaos-genius/chaos_genius/issues) to start with.
 
+Please review our [contribution guidelines](https://github.com/chaos-genius/chaos_genius/blob/main/CONTRIBUTING.md) before opening a pull request. Thank you for contributing!
 
 ## Roadmap
 
