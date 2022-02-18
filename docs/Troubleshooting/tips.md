@@ -15,7 +15,7 @@ Visit our [Accessing the Data](/docs/Public_Datasets_Catalog/access_data) page t
 If our troubleshooting guide doesn't fix your issue you can share your docker logs with us. We will be able to replicate and investigate the issue in a better and faster way.
 
 On **Linux, MacOS or WSL**, use these commands to generate log files:
-```bash
+```
 docker logs chaosgenius-server &> chaosgenius-server.log
 docker logs chaosgenius-worker-analytics &> chaosgenius-worker-analytics.log
 docker logs chaosgenius-worker-alerts &> chaosgenius-worker-alerts.log

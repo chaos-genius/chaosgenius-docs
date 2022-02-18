@@ -22,7 +22,7 @@ Install Docker on your workstation (see [instructions](https://www.docker.com/ge
 
 If you only need databases and data warehouses such as Postgres, MySQL, BigQuery, Redshift or Snowflake, use these commands:
 
-```bash
+```
 git clone https://github.com/chaos-genius/chaos_genius
 
 cd chaos_genius
@@ -34,7 +34,7 @@ docker-compose up
 
 If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use these commands:
 
-```bash
+```
 git clone https://github.com/chaos-genius/chaos_genius
 
 cd chaos_genius
