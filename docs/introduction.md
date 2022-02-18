@@ -8,11 +8,7 @@ sidebar_position: 1
 
 Chaos Genius is an open-source business observability platform. Chaos Genius enables businesses to monitor their KPIs across multiple data sources, and perform automated root cause analysis for any deviation in the KPIs. 
 
-Chaos Genius can help teams reduce their Mean-Time-To-Detect (MTTD) and Mean-Time-To-Resolve (MTTR) for any issues in their business and system KPIs. 
-
-Standard BI dashboards enable data visualization to track how select metrics are trending. However, diagnosing why a particular metric or KPI has changed, remains a woefully manual process involving often exporting to excel, slicing & dicing the data, coordination with multiple teams in an organization to identify related events, data quality issues and monitoring externalities. 
-
-With Chaos Genius, we aim to automate the diagnosis and root-cause-analysis for deviations in different business and system KPIs at scale. 
+Chaos Genius can help teams reduce their Mean-Time-To-Detect (MTTD) and Mean-Time-To-Resolve (MTTR) for any issues in their business and data KPIs. With Chaos Genius, we aim to automate the diagnosis and root-cause-analysis for deviations in different business and data KPIs at scale. 
 
 
 ## Key Use-Cases
@@ -34,14 +30,17 @@ With Chaos Genius, we aim to automate the diagnosis and root-cause-analysis for 
 
 **Smart Alerts** - No more alert fatigue from static alerts. Self-learning thresholds to reduce false positives. Configurations to setup alert frequency & severity. Choose from multiple destinations like Slack, Email and other channels for your team.
 
-**Integrations** - Modular architecture to enable multiple data sources including databases, data warehouses and multiple third party connectors like Stripe, Shopify, Zendesk, Google Analytics, and many others.
+**Integrations** - Modular architecture to enable multiple data sources including databases, data warehouses and multiple third party connectors like Stripe, Shopify, Google Analytics, and many others.
 
 [See more on our website.](https://chaosgenius.io/)
 
 
 ## Quick Install
 
-If you only need databases and data warehouses such as Postgres, MySQL, BigQuery, Redshift or Snowflake, use these commands:
+Chaos Genius comes in two version. The `Default` version is lighter and works with all DBs/DWs and is recommended. The `Third-party` version enables more 3rd party data sources in addition to Databases & data warehouses. 
+
+### Chaos Genius - Default Installation (Recommended)
+If you only need databases and data warehouses such as `Postgres`, `MySQL`, `BigQuery`, `Redshift` or `Snowflake`, use these commands:
 
 ```
 git clone https://github.com/chaos-genius/chaos_genius
@@ -52,9 +51,9 @@ docker-compose up
 ```
 
 :::info
-### Third-party installation
+### Chaos Genius - Third-party Version Installation
 
-If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use these commands instead:
+If you also need any third-party data sources such as `Google Sheets`, `Google Analytics`, `Shopify`, `Stripe`, `Bind Ads`, `Facebook Marketing` or `Google Ads`, use these commands instead:
 
 ```
 git clone https://github.com/chaos-genius/chaos_genius
@@ -100,9 +99,9 @@ Want to contribute? Visit our [Github repo](https://github.com/chaos-genius) and
 
 -   Show us some love - Give us a 🌟!
 
--   Create a pull request. Here's a [list of issues](https://github.com/chaos-genius/chaos_genius/issues) to start with.
-
-Please review our [contribution guidelines](https://github.com/chaos-genius/chaos_genius/blob/main/CONTRIBUTING.md) before opening a pull request. Thank you for contributing!
+-   Create a pull request. Here's a [list of issues](https://github.com/chaos-genius/chaos_genius/issues) to start with. Please review our [contribution guidelines](https://github.com/chaos-genius/chaos_genius/blob/main/CONTRIBUTING.md) before opening a pull request. 
+  
+Thank you for contributing!
 
 ## Roadmap
 
