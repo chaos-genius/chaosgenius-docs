@@ -66,7 +66,7 @@ docker-compose -f docker-compose.thirdparty.yml up
 
 When the installation is complete, visit [http://localhost:8080](http://localhost:8080)
 
-Visit the [Quick Start](/docs/Quick_Start/Install-Chaos-Genius) section showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
+Visit the [Quick Start](/docs/Quick_Start/prereqs) section showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
 
 If you want to schedule office hours with our team to help you get set up, please select [some time directly here.](https://calendly.com/chaosgenius/30min)
 
