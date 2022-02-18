@@ -58,7 +58,7 @@ docker-compose -f docker-compose.thirdparty.yml up
 
 :::note
 
-Enabling these data sources requires the third-party version. Please see [this section](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation) to upgrade to the third-party version or [this section](../../Quick_Start/install.md#third-party-installation) to install the third-party version.
+Enabling these data sources requires the third-party version. Please [install the third-party version](/Quick_Start/install.md#third-party-installation) or [upgrade to it](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation).
 
 :::
 
