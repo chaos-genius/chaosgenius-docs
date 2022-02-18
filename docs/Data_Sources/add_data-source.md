@@ -9,7 +9,7 @@ Chaos Genius supports multiple data sources. Please find a complete list of data
 
 If you do not find the data source you are looking to add, please drop us a line on our Community Slack channel. 
 
-For third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing and Google Ads; Chaos Genius uses [Airbyte](https://docs.airbyte.io/) to load and sync data. For the said data sources, Chaos Genius follows the documentation support provided by Airbyte.
+For third-party data sources such as `Google Sheets`, `Google Analytics`, `Shopify`, `Stripe`, `Bind Ads`, `Facebook Marketing` and `Google Ads`; Chaos Genius uses [Airbyte](https://docs.airbyte.io/) to load and sync data. For the said data sources, Chaos Genius follows the documentation support provided by Airbyte.
 
 :::info
 
