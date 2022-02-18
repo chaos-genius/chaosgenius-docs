@@ -6,4 +6,4 @@ id: 'large_datasets'
 
 <p></p>
 
-If you're data set is large (exceeding 10M rows), please use aggregated views to add KPI's. Currently Chaos Genius does not provide support for such large datasets.
+If you're data set is large (exceeding 10M rows of data in the last 30 days), likely you will face issues while creating KPIs. In such cases, we recommend creating an aggregated table/view by aggregating your data by over the time column. This significantly improves the analytics performance and reduces compute requirements. 
