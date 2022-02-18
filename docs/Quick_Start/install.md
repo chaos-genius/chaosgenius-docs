@@ -30,9 +30,10 @@ cd chaos_genius
 docker-compose up
 ```
 
+:::info
 ### Third-party installation
 
-If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use these commands:
+If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use these commands instead:
 
 ```
 git clone https://github.com/chaos-genius/chaos_genius
@@ -41,6 +42,7 @@ cd chaos_genius
 
 docker-compose -f docker-compose.thirdparty.yml up
 ```
+:::
 
 ### Accessing the UI
 
@@ -66,8 +68,8 @@ cd chaos_genius
 docker-compose up
 ```
 
+:::info
 ### Third-party installation
-
 If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use these commands:
 
 ```
@@ -77,6 +79,7 @@ cd chaos_genius
 
 docker-compose -f docker-compose.thirdparty.yml up
 ```
+:::
 
 ### Accessing the UI
 

@@ -59,14 +59,22 @@ Create or log into your GCP account & select appropriate project.
 1. Bring containers to life with:  
     ```sudo docker-compose up```  
 
-    Or you can use the detached mode, which is preferable on servers as it allows the containers to run in the background.  
-    ```sudo docker-compose up -d```
+    Or you can use the detached mode, which is preferable on servers as it allows the containers to run in the background.
+    ```
+    sudo docker-compose up -d
+    ```
 
-    If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use the `docker-compose.thirdparty.yml` file:  
-    ```sudo docker-compose -f docker-compose.thirdparty.yml up -d```
+    :::info
+    If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use the `docker-compose.thirdparty.yml` file:
+    ```
+    sudo docker-compose -f docker-compose.thirdparty.yml up -d
+    ```
+    :::
 
 2. To view real time logs run:  
-    ```sudo docker-compose logs -f```
+    ```
+    sudo docker-compose logs -f
+    ```
 
 ## Step 7: Access the Dashboard
 
