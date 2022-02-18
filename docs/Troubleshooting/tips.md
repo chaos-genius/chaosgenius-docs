@@ -10,7 +10,7 @@ Use our Public Data Sets on Postgres and Snowflake instances as a sanity check w
 
 Visit our [Accessing the Data](/docs/Public_Datasets_Catalog/access_data) page to get the appropriate database or data warehouse credentials.
 
-## If stuck, share docker logs on Slack for quick debug
+## Generating logs for debugging
 
 If our troubleshooting guide doesn't fix your issue you can share your docker logs with us. We will be able to replicate and investigate the issue in a better and faster way.
 
