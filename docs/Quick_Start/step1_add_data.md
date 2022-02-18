@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 id: 'step1_add_data'
 ---
 # Step 1: Add Data Source

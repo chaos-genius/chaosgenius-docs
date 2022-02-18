@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 id: 'step3_activate_analytics'
 ---
 # Step 3: Configure Analytics
