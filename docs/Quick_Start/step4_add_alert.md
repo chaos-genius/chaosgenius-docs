@@ -4,6 +4,8 @@ id: 'step4_add_alert'
 ---
 # Step 4: Set-Up Alerts (Optional)
 
+## Configuring Alert Destination
+
 Before adding an alert, you need to setup an alert destination. Currently we offer Slack and Email as Alert Channels. Please see the 
 [Alerts](/Alerts/Alert_Destination.md) section for more information.
 
@@ -11,7 +13,9 @@ Before adding an alert, you need to setup an alert destination. Currently we off
 
 Once you've configured the channel, you can start setting up alerts for the chosen KPIs.
 
-You need to fill in the following fields:
+## Setting up Alerts
+
+To setup an Alert, you first have to click the `New Alert` button, select `KPI Alert` and then fill in the following fields:
 
 -   **Select KPI** : Select the KPI for which you want to set up the alert
 
@@ -31,7 +35,7 @@ You need to fill in the following fields:
 
     -   Slack: You can select the channel to which the alert will be triggered.
 
--  **Send as**: Here you can select whether you want alerts to be sent individually (as soon as anomaly is computed) or as a **daily consolidated report**.
+-  **Send as**: Here you can select whether you want alerts to be sent individually (as soon as anomaly is computed) or as a **daily consolidated report** once a day at the configured time.
 
 :::note
 Consolidated [Reports need to be configured](/Alerts/Alert_Report_Settings.md) to receive them.
