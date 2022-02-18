@@ -17,7 +17,7 @@ For smaller datasets and for testing Chaos Genius, an instance with the followin
 This has been tested on a `t2.medium` AWS EC2 instance.
 
 :::info
-If you need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, you will need:
+If you need any third-party data sources such as `Google Sheets`, `Google Analytics`, `Shopify`, `Stripe`, `Bind Ads`, `Facebook Marketing` or `Google Ads`, you will need:
 - 2 vCPUs
 - 8GB memory
 - 20GB storage space
