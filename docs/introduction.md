@@ -101,9 +101,9 @@ Please review our [contribution guidelines](https://github.com/chaos-genius/chao
 
 ## Roadmap
 
-Check out our [Roadmap](/Roadmap/roadmap.md) section covering our immediate and 6-12 week milestones. Something missing? Feel free to raise an issue or drop us a line.
+Check out our [Roadmap](/Roadmap/road_map.md) section covering our immediate and 6-12 week milestones. Something missing? Feel free to raise an issue or drop us a line.
 
 ## License
 
-Chaos Genius is licensed under the MIT license. See the [License](/License/license.md) section for licensing information.
+Chaos Genius is licensed under the MIT license. See the [License](/License/license_mit.md) section for licensing information.
 
