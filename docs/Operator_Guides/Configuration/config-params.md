@@ -5,11 +5,11 @@ id: 'Config Parameters'
 
 # Config Parameters
 
-Chaos Genius tries to make it easy to update the analytics parameters, hyperparameters as well as other configuration changes. Currently we have exposed the following configuration parameters.
+Chaos Genius tries to make it easy to update various analytics parameters as well as other configuration changes. Currently we have exposed the following configuration parameters.
 
 ## Updating Parameters
 
-Your analytics can be configured by modifying parameters in the .env file. After editing the file, restart Chaos Genius using these commands for the default version:
+Your analytics can be configured by modifying parameters in the `.env` file. After editing the file, restart Chaos Genius using these commands for the default version:
 
 ```
 docker-compose stop
