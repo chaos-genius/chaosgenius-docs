@@ -47,21 +47,18 @@ Here we ask for what kind of seasonality is expected in the data as it can help 
 
 Chaos Genius offers multiple algorithms that can be selected for different KPIs based on the use-case and expected noise in the data in order to minimize false positives and alert fatigue. 
 
-### Standard Deviation (SD)
-
-The Standard Deviation model forecasts time series prediction as the standard deviation of the past values.  The model should be utilized when your data does not have any significant seasonality. It is also recommended to use the algorithm when you have a large number of metrics to keep track of and you want to save on compute power.
-
-### Exponentially Weighted Standard Deviation
-
-The EWSTD model is a simple extension to the SD model (which assigns equal weight to every point in time), by assigning more weight to the most recent observations using an exponential scheme. Upper and lower bounds for EWSTD are calculated as a percentage of the moving standard deviation. It handles trends & recent variation in data better as compared to the Standard Deviation Model.
-
-### Exponentially Weighted Moving Average
-
-The EWMA model applies weights to the values of a time series. More weight is applied to more recent data points, making them more relevant for future forecasts. Bounds for EWMA are calculated as a percentage of the moving average. Similar to EWSTD, It is faster at adapting to trends and recent variations but cannot capture seasonality in the data.
-
 ### Prophet
 
 Prophet is an open source software released by Facebook. It is a time series forecasting technique based on an additive model that fits non-linear trends with yearly, weekly, and daily seasonality, as well as holiday effects. It's robust to missing data and trend changes, and it usually handles outliers well. Additional details regarding the model are available [here](https://research.fb.com/prophet-forecasting-at-scale/).
+### Exponentially Weighted Standard Deviation (EWSTD)
+
+The EWSTD model is a simple extension to the SD model (which assigns equal weight to every point in time), by assigning more weight to the most recent observations using an exponential scheme. Upper and lower bounds for EWSTD are calculated as a percentage of the moving standard deviation. It handles trends & recent variation in data better as compared to the Standard Deviation Model.
+### Standard Deviation (SD)
+
+The Standard Deviation model forecasts time series prediction as the standard deviation of the past values.  The model should be utilized when your data does not have any significant seasonality. It is also recommended to use the algorithm when you have a large number of metrics to keep track of and you want to save on compute power.
+### Exponentially Weighted Moving Average (EWMA)
+
+The EWMA model applies weights to the values of a time series. More weight is applied to more recent data points, making them more relevant for future forecasts. Bounds for EWMA are calculated as a percentage of the moving average. Similar to EWSTD, It is faster at adapting to trends and recent variations but cannot capture seasonality in the data.
 
 
 ## Analysing Anomaly Detection
