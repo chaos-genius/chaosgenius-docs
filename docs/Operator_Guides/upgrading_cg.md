@@ -20,7 +20,8 @@ docker-compose pull
 docker-compose up
 ```
 
-For the third-party installation, use:
+:::info
+For the third-party installation, use these commands instead:
 ```
 docker-compose -f docker-compose.thirdparty.yml stop
 
@@ -30,6 +31,7 @@ docker-compose -f docker-compose.thirdparty.yml pull
 
 docker-compose -f docker-compose.thirdparty.yml up
 ```
+:::
 
 ## From the default installation to third-party installation
 
