@@ -5,14 +5,13 @@ id: 'navigating-the-dashboard'
 
 # Navigating the Dashboard
 
+![Dashboard Overview](/img/kpi-and-dashboard/Dashboard.png)
+
 Navigating your Chaos Genius dashboard is simple. Just follow these steps:
 
 1.  To open up your 'Dashboard', click the menu item in the left-hand side menu.
 
-2.  Next to the side menu, you'll see a list of your configured KPIs to select from.
+2.  You'll see all the dashboards that have been created by you. By default you will always have the ALL dashboard present.
 
-3.  Using the tabs at the top, you can select the analysis type.
+3.  Select the dashboard in which your KPI is present and you're all set to go!
 
-4.  The resulting analysis shows below!
-
-![Dashboard Overview](/img/kpi-and-dashboard/Dashboard.png)
