@@ -39,3 +39,9 @@ docker-compose stop
 
 docker-compose -f docker-compose.thirdparty.yml up
 ```
+
+:::info
+
+Not all third-party data sources are enabled by default. Please see [this section](/Operator_Guides/Configuration/config-params.md#enabling-third-party-data-sources) to enable specific third-party data sources.
+
+:::

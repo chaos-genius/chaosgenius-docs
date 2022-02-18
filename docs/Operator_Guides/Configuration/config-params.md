@@ -9,12 +9,19 @@ Chaos Genius tries to make it easy to update the analytics parameters, hyperpara
 
 ## Updating Parameters
 
-Your analytics can be configured by modifying parameters in the .env file. After editing the file, restart Chaos Genius using:  
+Your analytics can be configured by modifying parameters in the .env file. After editing the file, restart Chaos Genius using these commands for the default version:
 
 ```bash
 docker-compose stop
 
 docker-compose up
+```
+
+If you're using the third-party version, use these commands instead:
+```bash
+docker-compose -f docker-compose.thirdparty.yml stop
+
+docker-compose -f docker-compose.thirdparty.yml up
 ```
 
 ## General Parameters
@@ -51,7 +58,7 @@ docker-compose up
 
 :::note
 
-Enabling these data sources requires the third-party version. Please see [this section](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation) to upgrade to the third-party installation.
+Enabling these data sources requires the third-party version. Please see [this section](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation) to upgrade to the third-party version or [this section](../../Quick_Start/install.md#third-party-installation) to install the third-party version.
 
 :::
 
