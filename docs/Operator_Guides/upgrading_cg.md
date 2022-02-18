@@ -9,7 +9,7 @@ id: 'Upgrading-Chaos-Genius'
 
 To upgrade Chaos Genius from a previous version, pull the latest changes from both the repository and Dockerhub and then restart the services.
 
-For the default installation, use:
+For the Default Installation, use:
 ```
 docker-compose stop
 
@@ -21,7 +21,7 @@ docker-compose up
 ```
 
 :::info
-For the third-party installation, use these commands instead:
+For the Third-party version Installation, use these commands instead:
 ```
 docker-compose -f docker-compose.thirdparty.yml stop
 
@@ -33,9 +33,9 @@ docker-compose -f docker-compose.thirdparty.yml up
 ```
 :::
 
-## From the default installation to third-party installation
+## Upgrading from Default to Third-party version
 
-To upgrade Chaos Genius from the default installation to third-party installation, use these commands:
+To upgrade Chaos Genius from the Default Installation to Third-party version installation, use these commands:
 ```
 docker-compose stop
 
@@ -44,6 +44,6 @@ docker-compose -f docker-compose.thirdparty.yml up
 
 :::info
 
-Not all third-party data sources are enabled by default. Please see [this section](/Operator_Guides/Configuration/config-params.md#enabling-third-party-data-sources) to enable specific third-party data sources.
+All third-party data sources are NOT enabled by default. Please see [this section](/Operator_Guides/Configuration/config-params.md#enabling-third-party-data-sources) to enable specific third-party data sources.
 
 :::
