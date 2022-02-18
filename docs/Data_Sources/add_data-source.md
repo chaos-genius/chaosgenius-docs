@@ -5,9 +5,7 @@ id: 'add_data-source'
 
 # Add Data Source
 
-Chaos Genius supports multiple data sources including Databases, Datawarehouses and multiple 3rd party connectors. 
-
-Please find a complete list of data sources & setup instructions for each data source in the section [Data Sources Catalog](/Data_Sources_Catalog/postgres.md)
+Chaos Genius supports multiple data sources. Please find a complete list of data sources & setup instructions for each data source in the section [Data Sources Catalog](/Data_Sources_Catalog/postgres.md)
 
 If you do not find the data source you are looking to add, please drop us a line on our Community Slack channel. 
 
@@ -17,12 +15,12 @@ For third-party data sources such as Google Sheets, Google Analytics, Shopify, S
 
 Third-party data sources are not available in the default version. If you need them, please [install the third-party version](/Quick_Start/install.md#third-party-installation) or [upgrade to it](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation).
 
-Not all third-party data sources are enabled by default. Please see [this section](/Operator_Guides/Configuration/config-params.md#enabling-third-party-data-sources) to enable specific third-party data sources.
+All third-party data sources are NOT enabled by default. Please see [this section](/Operator_Guides/Configuration/config-params.md#enabling-third-party-data-sources) to enable specific third-party data sources.
 
 :::
 
 ## Add a New Data Source
-Within the Data Sources section, you can find a list of all the Data sources that have been added along with the Status, Data Source Type, Number of KPIs currently defined using the particular data source, Last sync time and the date of creation.
+Within the Data Sources section, you can find a list of all the Data Sources that have been added along with the Status, Data Source Type, Number of KPIs currently defined using the particular data source, Last sync time and the date of creation.
 
 ![New Data Source](/img/connecting-to-data-sources/data_source_listing.png)
 
