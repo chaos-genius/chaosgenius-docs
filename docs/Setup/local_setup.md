@@ -31,7 +31,7 @@ You need to install Docker on Windows workstation, please follow the steps menti
 
 ## Step 3: Start the containers
 
-1. Bring containers to life with:
+1. For Default Installation, bring containers to life with:
     ```sudo docker-compose up```
 
     Or you can use the detached mode, which is preferable on servers as it allows the containers to run in the background.
