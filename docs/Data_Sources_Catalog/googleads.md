@@ -3,6 +3,18 @@ sidebar_position: 11
 id: 'Google Ads'
 ---
 
+:::info
+
+This data source requires the third-party version of Chaos Genius. Please see [this section](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation) to upgrade to the third-party version or [this section](/Quick_Start/install.md#third-party-installation) to install the third-party version.
+
+:::
+
+:::info
+
+This data source is not enabled by default in the third-party version. Please see [this section](/Operator_Guides/Configuration/config-params.md#enabling-third-party-data-sources) to enable it.
+
+:::
+
 Chaos Genius uses [Airbyte's Google Ads connector](https://docs.airbyte.io/integrations/sources/google-ads) to sync the following core Streams:
 
 Main streams:

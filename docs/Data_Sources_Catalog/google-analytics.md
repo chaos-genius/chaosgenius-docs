@@ -5,6 +5,12 @@ id: 'google-analytics'
 
 # Google Analytics
 
+:::info
+
+This data source requires the third-party version of Chaos Genius. Please see [this section](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation) to upgrade to the third-party version or [this section](/Quick_Start/install.md#third-party-installation) to install the third-party version.
+
+:::
+
 Chaos Genius uses [Airbyte's Google Analytics connector](https://docs.airbyte.io/integrations/sources/google-analytics-v4) to sync the core Streams. For Custom Reports, refer to [Airbyte's section](https://docs.airbyte.io/integrations/sources/google-analytics-v4#reading-custom-reports) on Custom Reports.
 
 To connect Google Analytics as a data source, you will need the following information:
