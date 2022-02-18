@@ -5,14 +5,9 @@ id: 'Stripe'
 
 :::info
 
-This data source requires the third-party version of Chaos Genius.
-Please [install the third-party version](/Quick_Start/install.md#third-party-installation) or [upgrade to it](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation).
-
-:::
-
-:::info
-
-This data source is not enabled by default in the third-party version. Please see [this section](/Operator_Guides/Configuration/config-params.md#enabling-third-party-data-sources) to enable it.
+- This data source requires the third-party version of Chaos Genius.
+  Please [install the third-party version](/Quick_Start/install.md#third-party-installation) or [upgrade to it](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation).
+- This data source is not enabled by default in the third-party version. Please see [this section](/Operator_Guides/Configuration/config-params.md#enabling-third-party-data-sources) to enable it.
 
 :::
 
