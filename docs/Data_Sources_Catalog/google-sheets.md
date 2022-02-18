@@ -5,6 +5,13 @@ id: 'google-sheets'
 
 # Google Sheets
 
+:::info
+
+This data source requires the third-party version of Chaos Genius.
+Please [install the third-party version](/Quick_Start/install.md#third-party-installation) or [upgrade to it](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation).
+
+:::
+
 To connect Google Sheets as a data source, you will need the following information:
 
 * **Credentials JSON**

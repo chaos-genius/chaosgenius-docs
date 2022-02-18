@@ -5,16 +5,23 @@ id: 'Config Parameters'
 
 # Config Parameters
 
-Chaos Genius tries to make it easy to update the analytics parameters, hyperparameters as well as other configuration changes. Currently we have exposed the following configuration parameters. 
+Chaos Genius tries to make it easy to update the analytics parameters, hyperparameters as well as other configuration changes. Currently we have exposed the following configuration parameters.
 
 ## Updating Parameters
 
-Your analytics can be configured by modifying parameters in the .env file. After editing the file, restart Chaos Genius using:  
+Your analytics can be configured by modifying parameters in the .env file. After editing the file, restart Chaos Genius using these commands for the default version:
 
 ```bash
 docker-compose stop
 
 docker-compose up
+```
+
+If you're using the third-party version, use these commands instead:
+```bash
+docker-compose -f docker-compose.thirdparty.yml stop
+
+docker-compose -f docker-compose.thirdparty.yml up
 ```
 
 ## General Parameters
@@ -47,8 +54,21 @@ docker-compose up
 | **MAX_FILTER_SUBGROUPS_ANOMALY** | integer | 100 | Sets the maximum number of subgroups considered for Anomaly Detection. To consider more subgroups for analysis, you can increase this value. But increasing this will lead to longer computation time. |
 | **MAX_ANOMALY_SLACK_DAYS** | integer | 14 | Sets the maximum number of days for which we can have no data and still consider the KPI for Anomaly Detection. You can increase this value if you expect to have large periods of missing data or have consistently sparse data. |
 
+## Enabling third-party Data Sources
 
+:::note
 
+Enabling these data sources requires the third-party version. Please [install the third-party version](/Quick_Start/install.md#third-party-installation) or [upgrade to it](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation).
 
+:::
 
+| Name | Type | Default | Description |
+| --- | --- | --- | --- |
+| `SOURCE_GOOGLE_ANALYTICS` | bool | `true` | [Google Analytics](/Data_Sources_Catalog/google-analytics.md) data source |
+| `SOURCE_GOOGLE_SHEETS` | bool | `true` | [Google Sheets](/Data_Sources_Catalog/google-sheets.md) data source |
+| `SOURCE_SHOPIFY` | bool | `false` | [Shopify](/Data_Sources_Catalog/shopify.md) data source |
+| `SOURCE_STRIPE` | bool | `false` | [Stripe](/Data_Sources_Catalog/stripe.md) data source |
+| `SOURCE_GOOGLE_ADS` | bool | `false` | [Google Ads](/Data_Sources_Catalog/googleads.md) data source |
+| `SOURCE_FACEBOOK_ADS` | bool | `false` | [Facebook Marketing](/Data_Sources_Catalog/fbmarketing.md) data source |
+| `SOURCE_BING_ADS` | bool | `false` | [Bind Ads](/Data_Sources_Catalog/bingads.md) data source |
 

@@ -3,6 +3,19 @@ sidebar_position: 10
 id: 'Facebook Marketing'
 ---
 
+:::info
+
+This data source requires the third-party version of Chaos Genius.
+Please [install the third-party version](/Quick_Start/install.md#third-party-installation) or [upgrade to it](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation).
+
+:::
+
+:::info
+
+This data source is not enabled by default in the third-party version. Please see [this section](/Operator_Guides/Configuration/config-params.md#enabling-third-party-data-sources) to enable it.
+
+:::
+
 Chaos Genius uses Airbyte's [Facebook Marketing](https://docs.airbyte.io/integrations/sources/facebook-marketing) to sync the following core Streams:
 
 -   AdSets.[Facebook docs](https://developers.facebook.com/docs/marketing-api/reference/ad-campaign#fields)

@@ -18,7 +18,9 @@ Install Docker on your workstation (see [instructions](https://www.docker.com/ge
 
 *Note: There is a known issue with docker-compose 1.27.3. If you are using that version, please upgrade to 1.27.4.*
 
-Once Docker is installed successfully, get started on your local machine by running:
+### Default installation
+
+If you only need databases and data warehouses such as Postgres, MySQL, BigQuery, Redshift or Snowflake, use these commands:
 
 ```bash
 git clone https://github.com/chaos-genius/chaos_genius
@@ -27,6 +29,20 @@ cd chaos_genius
 
 docker-compose up
 ```
+
+### Third-party installation
+
+If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use these commands:
+
+```bash
+git clone https://github.com/chaos-genius/chaos_genius
+
+cd chaos_genius
+
+docker-compose -f docker-compose.thirdparty.yml up
+```
+
+### Accessing the UI
 
 Once you see the Chaos Genius success banner, the UI is ready to be accessed at [http://localhost:8080](http://localhost:8080)
 
@@ -38,7 +54,9 @@ If you face any other issues while installing, please visit the [Troubleshooting
 
 You need to install Docker on Windows workstation, please follow the steps mentioned [here](https://docs.docker.com/desktop/windows/install/).
 
-Once Docker is installed successfully, get started on your local machine by running:
+### Default installation
+
+If you only need databases and data warehouses such as Postgres, MySQL, BigQuery, Redshift or Snowflake, use these commands:
 
 ```
 git clone https://github.com/chaos-genius/chaos_genius
@@ -48,7 +66,21 @@ cd chaos_genius
 docker-compose up
 ```
 
-Before running these commands, please make sure your docker compose is up to date. Once you see the Chaos Genius success banner, the UI is ready to be accessed at [http://localhost:8080](http://localhost:8080).
+### Third-party installation
+
+If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use these commands:
+
+```
+git clone https://github.com/chaos-genius/chaos_genius
+
+cd chaos_genius
+
+docker-compose -f docker-compose.thirdparty.yml up
+```
+
+### Accessing the UI
+
+Once you see the Chaos Genius success banner, the UI is ready to be accessed at [http://localhost:8080](http://localhost:8080).
 
 ## Next Steps
 
