@@ -33,7 +33,7 @@ docker-compose up
 :::info
 ### Third-party installation
 
-If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use these commands instead:
+If you also need any third-party data sources such as `Google Sheets`, `Google Analytics`, `Shopify`, `Stripe`, `Bind Ads`, `Facebook Marketing` or `Google Ads`, use these commands instead:
 
 ```
 git clone https://github.com/chaos-genius/chaos_genius
@@ -58,7 +58,7 @@ You need to install Docker on Windows workstation, please follow the steps menti
 
 ### Default installation
 
-If you only need databases and data warehouses such as Postgres, MySQL, BigQuery, Redshift or Snowflake, use these commands:
+If you only need databases and data warehouses such as `Postgres`, `MySQL`, `BigQuery`, `Redshift` or `Snowflake`, use these commands:
 
 ```
 git clone https://github.com/chaos-genius/chaos_genius
@@ -70,7 +70,7 @@ docker-compose up
 
 :::info
 ### Third-party installation
-If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use these commands:
+If you also need any third-party data sources such as `Google Sheets`, `Google Analytics`, `Shopify`, `Stripe`, `Bind Ads`, `Facebook Marketing` or `Google Ads`, use these commands instead:
 
 ```
 git clone https://github.com/chaos-genius/chaos_genius

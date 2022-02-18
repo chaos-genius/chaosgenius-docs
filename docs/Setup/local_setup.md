@@ -40,7 +40,7 @@ You need to install Docker on Windows workstation, please follow the steps menti
     ```
 
     :::info
-    If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use the `docker-compose.thirdparty.yml` file:
+    If you also need any third-party data sources such as `Google Sheets`, `Google Analytics`, `Shopify`, `Stripe`, `Bind Ads`, `Facebook Marketing` or `Google Ads`, use the `docker-compose.thirdparty.yml` file:
 
     ```
     sudo docker-compose -f docker-compose.thirdparty.yml up -d
