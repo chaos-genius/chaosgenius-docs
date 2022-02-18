@@ -118,4 +118,4 @@ Chaos Genius also provides the added capability of examining anomalies in your d
 
 For daily KPI's, the top 10 (based on severity) dimensions that had an anomaly occur on the last day of your KPI are displayed in the UI. For hourly KPI's, we utilize a 24-hour window to rank dimensions (based on severity) and from that the top 10 are displayed. 
 
-To change the number of dimensions being displayed, you can change the `TOP_SUBDIMENSIONS_FOR_ANOMALY` param in the .env file. For more information please refer to the [Congif Param Guide](/Operator_Guides/Configuration/config-params.md).
+To change the number of dimensions being displayed, you can change the `TOP_SUBDIMENSIONS_FOR_ANOMALY` param in the .env file. For more information please refer to the [Config Param Guide](/Operator_Guides/Configuration/config-params.md).
