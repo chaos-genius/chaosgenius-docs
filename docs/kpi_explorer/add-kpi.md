@@ -78,11 +78,11 @@ If you need more options for aggregation, then create an issue, or if you wish t
 
 ### Datetime Column
 
-From all the columns displayed for `Datetime Columns`, you need to choose the one that stores time. If you're facing any issues regarding your datetime column visit our [Datetime Formats Guide](/docs/Troubleshooting/adding_kpi/datetime.md)
+From all the columns displayed for `Datetime Columns`, you need to choose the one that stores time. If you're facing any issues regarding your datetime column visit our [Datetime Formats Guide](/Troubleshooting/adding_kpi/datetime.md)
 
 ### Dimension Columns
 
-These columns are the ones you want Chaos Genius to do analysis on. You can choose a maximum of 10 columns. If you come across any problems while adding dimensions refer to our [Dimensions Guide](/docs/Troubleshooting/adding_kpi/dimensions.md)
+These columns are the ones you want Chaos Genius to do analysis on. You can choose a maximum of 10 columns. If you come across any problems while adding dimensions refer to our [Dimensions Guide](/Troubleshooting/adding_kpi/dimensions.md)
 
 ## KPI Validation
 

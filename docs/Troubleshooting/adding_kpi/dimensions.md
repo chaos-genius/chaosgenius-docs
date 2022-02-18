@@ -25,4 +25,4 @@ Examply Queries:
 
 ## Using a high cardinality column as dimension
 
-If your dimension column has cardinality greater than 1000, you can change it's value in your `.env` file. For more information on this please refer to the [Config Parameters Section](/docs/Operator_Guides/Configuration/config-params.md).
+If your dimension column has cardinality greater than 1000, you can change it's value in your `.env` file. For more information on this please refer to the [Config Parameters Section](/Operator_Guides/Configuration/config-params.md).
