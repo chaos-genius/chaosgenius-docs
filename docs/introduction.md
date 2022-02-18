@@ -101,7 +101,7 @@ Please review our [contribution guidelines](https://github.com/chaos-genius/chao
 
 ## Roadmap
 
-Check out our [Roadmap](/Roadmap/road_map.md) section covering our immediate and 6-12 week milestones. Something missing? Feel free to raise an issue or drop us a line.
+Check out our [Roadmap](/roadmap.md) section covering our immediate and 6-12 week milestones. Something missing? Feel free to raise an issue or drop us a line.
 
 ## License
 
