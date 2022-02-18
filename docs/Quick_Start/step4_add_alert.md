@@ -47,3 +47,12 @@ For more information on setting up alerts, please visit the [Alerts](/Alerts/Ale
 
 ![Add KPI alert - channel config](/img/Alerts/add_alert_2.png)
 
+## Alerts Dashboard
+
+The dashboard shows all of the alerts triggered in the past week.
+
+You can navigate to the alerts dashboard by clicking on the `Alerts` heading on the alerts page, or by navigating to `<your-ip-or-hostname>/api/digest` (for local installs, this will be [http://localhost:8080/api/digest](http://localhost:8080/api/digest)).
+
+![Alerts Dashboard](/img/Alerts/alerts_dashboard.png)
+
+
