@@ -56,6 +56,10 @@ Select the Data Source which contains the underlying data for your KPI. Currentl
 
 As detailed above, you can select a `Table` or `Query` based KPI depending on your requirements. 
 
+### Schema
+
+If you select your Data Set Type as 'Table', then an additional option to choose the schema in which your table belongs is to be selected.
+
 ### Metric Column
 
 The column chosen for `Metric Column` is what will be used for aggregation in order to define your KPI. 
@@ -74,14 +78,13 @@ If you need more options for aggregation, then create an issue, or if you wish t
 
 ### Datetime Column
 
-From all the columns displayed for `Datetime Columns`, you need to choose the one that stores time.
+From all the columns displayed for `Datetime Columns`, you need to choose the one that stores time. If you're facing any issues regarding your datetime column visit our [Datetime Formats Guide](/docs/Troubleshooting/adding_kpi/datetime.md)
 
 ### Dimension Columns
 
-These columns are the ones you want Chaos Genius to do analysis on. You can choose a maximum of 10 columns.
+These columns are the ones you want Chaos Genius to do analysis on. You can choose a maximum of 10 columns. If you come across any problems while adding dimensions refer to our [Dimensions Guide](/docs/Troubleshooting/adding_kpi/dimensions.md)
 
 ## KPI Validation
-
 
 Once all the details for a new KPI are filled in and you click "Add KPI", Chaos Genius will run validations and check whether it is valid KPI definition. In case of an invalid KPI definition, you will be shown an error message. Please see the Troubleshooting section for more information.
 
