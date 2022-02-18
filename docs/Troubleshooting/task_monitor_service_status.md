@@ -9,7 +9,7 @@ The task monitor allows you to look into the status of analytics being run for y
 
 The service status can be used to quickly determine if all of the Chaos Genius services are up and running.
 
-Both of these can be accessed on the status page at [http://127.0.0.1:8080/api/status](http://127.0.0.1:8080/api/status), for local deployments. Replace `127.0.0.1` with the IP address or hostname of the server for cloud deployments.
+Both of these can be accessed on the status page at [http://localhost:8080/api/status](http://localhost:8080/api/status), for local deployments. Replace `localhost` with the IP address or hostname of the server for cloud deployments.
 
 ![A screenshot of the status page showing the task monitor table and the service status](/img/status-page.png)
 

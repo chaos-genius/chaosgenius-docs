@@ -29,7 +29,8 @@ For example, here, we've selected our time range to be the Last 30 days. The tot
 
 ![Time Series Plot](/img/kpi-and-dashboard/time_series.png)
 
-Chaos Genius will also produce a helpful time series plot to graphically display your selected KPI over the selected time range.
+Chaos Genius will also produce a graph of your time series for the last 60 days which allows you to see the performance of your KPI over a period of time.
+
 
 ## Changing the Time Range
 
@@ -37,7 +38,7 @@ Chaos Genius will also produce a helpful time series plot to graphically display
 
 Using the Time range dropdown, you can select to compare groups in the time interval that you prefer. 
 
-The time intervals we currently offer are: *Last 30 Days, Last 7 Days, Previous Day, Month on Month, Month to Date, Week on Week, Week to Date, Quarter on Quarter and Qaurter to Date*. You can set what intervals you want using the `DEEPDRILLS_ENABLED_TIME_RANGES` param in the .env file. For more information please refer to the [Congif Param Guide](/Operator_Guides/Configuration/config-params.md).
+The time intervals we currently offer are: *Last 30 Days, Last 7 Days, Previous Day, Month on Month, Month to Date, Week on Week, Week to Date, Quarter on Quarter and Qaurter to Date*. You can set what intervals you want using the `DEEPDRILLS_ENABLED_TIME_RANGES` param in the .env file. For more information please refer to the [Config Param Guide](/Operator_Guides/Configuration/config-params.md).
 
 ## Single Dimensional Waterfall
 

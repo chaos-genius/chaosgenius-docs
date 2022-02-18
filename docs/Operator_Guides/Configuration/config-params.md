@@ -17,12 +17,16 @@ docker-compose stop
 docker-compose up
 ```
 
+:::info
+
 If you're using the third-party version, use these commands instead:
+
 ```
 docker-compose -f docker-compose.thirdparty.yml stop
 
 docker-compose -f docker-compose.thirdparty.yml up
 ```
+:::
 
 ## General Parameters
 
@@ -58,7 +62,7 @@ docker-compose -f docker-compose.thirdparty.yml up
 
 :::info
 
-Enabling these data sources requires the third-party version. Please [install the third-party version](/Quick_Start/install.md#third-party-installation) or [upgrade to it](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation).
+Enabling these data sources requires the third-party version. Please [install the third-party version](/docs/Quick_Start/Install-Chaos-Genius#third-party-installation) or [upgrade to it](/Operator_Guides/upgrading_cg.md#from-the-default-installation-to-third-party-installation).
 
 :::
 

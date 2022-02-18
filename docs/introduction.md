@@ -52,7 +52,10 @@ docker-compose up
 ```
 
 :::info
+### Third-party installation
+
 If you also need any third-party data sources such as Google Sheets, Google Analytics, Shopify, Stripe, Bind Ads, Facebook Marketing or Google Ads, use these commands instead:
+
 ```
 git clone https://github.com/chaos-genius/chaos_genius
 
@@ -62,9 +65,9 @@ docker-compose -f docker-compose.thirdparty.yml up
 ```
 :::
 
-When the installation is complete, visit [http://127.0.0.1:8080](http://127.0.0.1:8080/)
+When the installation is complete, visit [http://localhost:8080](http://localhost:8080)
 
-Visit the [Quick Start](/Quick_Start/install.md) section showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
+Visit the [Quick Start](/docs/Quick_Start/Install-Chaos-Genius) section showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
 
 If you want to schedule office hours with our team to help you get set up, please select [some time directly here.](https://calendly.com/chaosgenius/30min)
 
@@ -103,9 +106,9 @@ Please review our [contribution guidelines](https://github.com/chaos-genius/chao
 
 ## Roadmap
 
-Check out our [Roadmap](/roadmap.md) section covering our immediate and 6-12 week milestones. Something missing? Feel free to raise an issue or drop us a line.
+Check out our [Roadmap](/docs/Roadmap) section covering our immediate and 6-12 week milestones. Something missing? Feel free to raise an issue or drop us a line.
 
 ## License
 
-Chaos Genius is licensed under the MIT license. See the [License](/License/license_mit.md) section for licensing information.
+Chaos Genius is licensed under the MIT license. See the [License](/docs/License/MIT) section for licensing information.
 
