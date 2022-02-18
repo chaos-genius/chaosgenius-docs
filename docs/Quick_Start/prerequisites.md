@@ -3,7 +3,7 @@ sidebar_position: 1
 id: prereqs
 ---
 
-# Prerequisites
+# Pre-requisites
 
 ## System requirements
 
