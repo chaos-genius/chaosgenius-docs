@@ -7,3 +7,5 @@ id: 'large_datasets'
 <p></p>
 
 If you're data set is large (exceeding 10M rows of data in the last 30 days), likely you will face issues while creating KPIs. In such cases, we recommend creating an aggregated table/view by aggregating your data by over the time column. This significantly improves the analytics performance and reduces compute requirements. 
+
+We are working on enabling some other features to support large data sets including support for materilized views and support for Druid. 
