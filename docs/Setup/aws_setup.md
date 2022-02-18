@@ -44,7 +44,7 @@ Naviate to EC2 Management Console and select Launch Instance. Follow the followi
 
 ## Step 5: Start the containers
 
-1. Bring containers to life with:  
+1. For Default Installation, bring containers to life with:  
     ```sudo docker-compose up```  
 
     Or you can use the detached mode, which is preferable on servers as it allows the containers to run in the background.
