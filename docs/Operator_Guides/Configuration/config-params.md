@@ -17,22 +17,34 @@ docker-compose stop
 docker-compose up
 ```
 
-## DeepDrills Parameters
+## General Parameters
 
 | Name | Type | Default | Description |
 | --- | --- | --- | --- |
+| **DAYS_OFFSET_FOR_ANALTYICS** | integer | 2 | Sets the days offset from the current date till which your KPI's will run for. By default, the analysis will be performed up until 2 days before the current date. For example, if your KPI runs on February 13th, your analytics will display results until February 11th. We don't recommend decreasing this value as it might lead to incomplete data being used for analysis. |
+| **TIMEZONE** | string | UTC | This sets the timezone on which all your analytics are reported. |
+| **MAX_ROWS_FOR_DEEPDRILLS** | integer | 10000000 | Sets the maximum number of rows allowed for a KPI to be added. You can increase this value if you have a very large dataset. Using large datasets will increase the computation time as well as the RAM required. |
+
+## DeepDrills Parameters
+
+| Name | Type | Default | Description | 
+| --- | --- | --- | --- |   
 | **MAX_DEEPDRILLS_SLACK_DAYS** | integer | 14 | Sets the maximum number of days for which we can have no data and still consider the KPI for DeepDrills. You can increase this value if you expect to have large periods of missing data or have consistently sparse data. |
-| **MAX_ROWS_FOR_DEEPDRILLS** | integer | 10000000 | Sets the maximum number of rows allowed in a KPI for it to be added. You can increase this if you have a very large dataset. But using large datasets will increase the computation time as well as the RAM required. |
+| **DEEPDRILLS_HTABLE_MAX_PARENTS** | integer | 5 | Sets the maximum number of rows in the first level of the DeepDrills' drilldowns. |
+| **DEEPDRILLS_HTABLE_MAX_CHILDREN** | integer | 5 | Sets the maximum number of rows in the subsequent levels of the DeepDrills' drilldowns. |
+| **DEEPDRILLS_HTABLE_MAX_DEPTH** | integer | 3 | Sets the maximum depth of the drilldowns in DeepDrills. |
+| **DEEPDRILLS_ENABLED_TIME_RANGES** | string | <span style={{overflowWrap: "anywhere"}}>last_30_days, last_7_days, previous_day, month_on_month, month_to_date, week_on_week, week_to_date</span> | Sets the enabled time ranges for which DeepDrills is computed as comma separated values. |
 
 ## Anomaly Detection Parameters
 
 | Name | Type | Default | Description |
 | --- | --- | --- | --- |
 | **MULTIDIM_ANALYSIS_FOR_ANOMALY** | boolean | false | Enables the generation of multi-dimensional subgroups. For example, if we have 2 dimensions like `Country` and `Day of Week`, with this disabled we get subgroups like `Country = India`, `Day of Week = Monday` etc, but enabling this gives us subgroups like `Country = India and Day of Week = Monday`, `Country = US and Day of Week = Monday` etc. |
-| **MAX_SUBDIM_CARDINALITY** | integer | 100 | Sets the maximum number of unique values allowed in a dimension. If a dimension exceeds this, it will not be considered during the analysis. If you have dimensions with high cardinalities, you can increase this value. |
-| **TOP_DIMENSIONS_FOR_ANOMALY_DRILLDOWN** | integer | 10 | Sets the maximum number of sub-dimensions shown in the Anomaly Drill Downs. Increase this value to show more sub-dimensions in the UI. |
+| **MAX_SUBDIM_CARDINALITY** | integer | 1000 | Sets the maximum number of unique values allowed in a dimension. If a dimension exceeds this, it will not be considered during the analysis. If you have dimensions with high cardinalities, you can increase this value. |
+| <span style={{overflowWrap: "anywhere"}}>**TOP_DIMENSIONS_FOR_ANOMALY_DRILLDOWN**</span> | integer | 10 | Sets the maximum number of dimensions shown in the Anomaly Drill Downs. Increase this value to show more dimensions in the UI. |
 | **MIN_DATA_IN_SUBGROUP** | integer | 30 | We look at subgroups which are statistically significant in different ways. One of the ways we do this is by checking the minimum population in a subgroup. If you are dealing with sparse or small data, you should decrease this number. And if you want to ignore smaller populations, you can increase this value. |
-| **MAX_FILTER_SUBGROUPS_ANOMALY** | integer | 100 | Sets the maximum number of subgroups considered for Anomaly Detection. To consider more subgroups for analysis, you can increase this value. But increase this will lead to longer computation time. |
+| **TOP_SUBDIMENSIONS_FOR_ANOMALY** | integer | 10 |  Sets the maximum number of sud-dimensions shown in the Anomaly Sub-dimensions page. Increase this value to show more dimensions in the UI. |
+| **MAX_FILTER_SUBGROUPS_ANOMALY** | integer | 100 | Sets the maximum number of subgroups considered for Anomaly Detection. To consider more subgroups for analysis, you can increase this value. But increasing this will lead to longer computation time. |
 | **MAX_ANOMALY_SLACK_DAYS** | integer | 14 | Sets the maximum number of days for which we can have no data and still consider the KPI for Anomaly Detection. You can increase this value if you expect to have large periods of missing data or have consistently sparse data. |
 
 ## Enabling third-party Data Sources
@@ -52,3 +64,4 @@ Enabling these data sources requires the third-party version. Please see [this s
 | `SOURCE_GOOGLE_ADS` | bool | `false` | [Google Ads](/Data_Sources_Catalog/googleads.md) data source |
 | `SOURCE_FACEBOOK_ADS` | bool | `false` | [Facebook Marketing](/Data_Sources_Catalog/fbmarketing.md) data source |
 | `SOURCE_BING_ADS` | bool | `false` | [Bind Ads](/Data_Sources_Catalog/bingads.md) data source |
+

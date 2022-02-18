@@ -53,7 +53,7 @@ docker-compose up
 
 When the installation is complete, visit [http://127.0.0.1:8080](http://127.0.0.1:8080/)
 
-Visit the [Quick Start](/Quick_Start/Quick_Start.md) section showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
+Visit the [Quick Start](/Quick_Start/install.md) section showing you how to connect a data source, define your first KPI, configure Anomaly Detector on your local machine. 
 
 If you want to schedule office hours with our team to help you get set up, please select [some time directly here.](https://calendly.com/chaosgenius/30min)
 

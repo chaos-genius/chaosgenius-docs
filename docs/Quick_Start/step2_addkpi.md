@@ -12,9 +12,11 @@ Once a data source is successfully added, you can start defining KPIs using that
 
 -   **Data Set Type**
 
-    - Table : If the KPI is directly related to an existing Table, select 'Table' as an option
+    - **Table**: If the KPI is directly related to an existing Table, select 'Table' as an option. 
    
-    - Query: If the KPI definition requires using multiple tables, then 'Query' option can be used to define the query;
+    - **Query**: If the KPI definition requires using multiple tables, then 'Query' option can be used to define the query.
+
+-   **Schema**: If you select your Data Set Type as 'Table', then an additional option to choose the schema in which your table belongs is to be selected.
 
 -   **Metric Column**: Select the column corresponding to the KPI
 
@@ -26,4 +28,4 @@ Once a data source is successfully added, you can start defining KPIs using that
 
 ![Add KPI](/img/Quick_Start/setup_add_kpi.png)
 
-For detailed documentation on KPIs please refer to the section [KPI Explorer](/kpi_explorer/add-kpi.md)
+For detailed documentation on KPIs please refer to the section [KPI Explorer](/kpi_explorer/add-kpi.md). If you're facing any issues while adding your KPI visit our [Troubleshooting Guide](/Troubleshooting/adding_kpi/datasets.md).
