@@ -37,7 +37,7 @@ Chaos Genius can help teams reduce their Mean-Time-To-Detect (MTTD) and Mean-Tim
 
 ## Quick Install
 
-Chaos Genius comes in two version. The `Default` version is lighter and works with all DBs/DWs and is recommended. The `Third-party` version enables more 3rd party data sources in addition to databases & data warehouses. 
+Chaos Genius comes in two versions. The `Default` version is lighter and works with all DBs/DWs and is recommended. The `Third-party` version enables more 3rd party data sources in addition to databases & data warehouses. 
 
 ### Chaos Genius - Default Installation (Recommended)
 If you only need databases and data warehouses such as `Postgres`, `MySQL`, `BigQuery`, `Redshift` or `Snowflake`, use these commands:
