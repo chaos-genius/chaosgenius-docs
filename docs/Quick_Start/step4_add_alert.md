@@ -31,7 +31,7 @@ To setup an Alert, you first have to click the `New Alert` button, select `KPI A
 
 -   **Select Channel**: Channel on which you want to receive the alert at. Currently you can choose between either :
 
-    -   Email : You can add recipient emails. Press enter after typing an email to add it to the list.
+    -   Email: You can add recipient emails. Press enter after typing an email to add it to the list.
 
     -   Slack: You can select the channel to which the alert will be triggered.
 
