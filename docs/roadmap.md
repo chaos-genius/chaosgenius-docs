@@ -11,9 +11,11 @@ Our goal is to make Chaos Genius production ready for all companies irrespective
 These are main features that we enable soon
 
 -   Anomaly detection
-    -   Investigate Anomaly List View
-    -   Sub-Dimensional Anomaly Detection & Alerting
-    -   Anomaly Detection for KPIs w/o any Dimensions
+    -   Hourly anomaly detection
+    -   Reasoning & causality for each anomaly 
+    -   Data backfilling & model retraining
+    -   Sub-Dimension anomaly investigation by size & severity
+
 
 -   API/Code level configuration for
     -   Hyperparameters for any algorithms
@@ -22,16 +24,27 @@ These are main features that we enable soon
 -   Alerts
     -   Webhook Support
     -   Backoff for alerting to minimize repeated alerts
+    -   Custom formatting option for alerts
+    -   Specific spike or drop alerts
+    
+
+-   Timezone support
+    -   Support for DB Timezone and Reporting Timezone
+    -   Handle TZ aware data & TZ conversion
+
+-   Login screeen
+-   Homepage Revamp
+-   Simple Pagination
 
 ### New Connectors 
 
 We will enabling the following new connectors very soon:
 
--   Redshift
+-   Apache Druid
+-   dbt (models & metrics)
 -   Paypal
 -   CSV
 -   Salesforce
--   Google Analytics Custom Report
 
 ### Performance Enhancements
 
@@ -49,6 +62,9 @@ We are working on following to improve & support data at larger scale
     -   More Robust & Fault Tolerant Task Scheduler
     -   Robust Error Messages & Logs that aid in debugging
 
+-   K8 configuration for horizontal scaling
+
+
 ## Coming in 6-12 weeks
 
 ### Features
@@ -65,11 +81,6 @@ These are main features that we enable over the next quarter
        -   Metabase 
        -   Superset
        -   Looker
-       -   dbt
-
--   Anomaly Detection
-       -   Run Frequency - Hourly; Currently 1 day. 
-       -   Edit Anomaly Detection Settings for KPIs
 
 -   Alerts
        -   Alert Feedback
@@ -83,7 +94,6 @@ These are main features that we enable over the next quarter
        -   Multi data source
 
 -   Forecast as input for DeepDrills
--   K8 configuration for horizontal scaling
 
 ### Connectors
 
@@ -100,10 +110,9 @@ We are working on following to improve & support data at larger scale:
 
 -   Data scalability 
        -   Distributed Pandas support - Koalas, Dask
-       -   Compressed Data/ Metrics Store (longer term)
+       -   Compressed Data/ Metrics Store
 
 -   Interactive analysis at scale
-       -   Implementation of Pinot & Druid based data store to enable interactive analysis 
 
 -   ML scalability
        -   Model warm start where possible for heavier models
