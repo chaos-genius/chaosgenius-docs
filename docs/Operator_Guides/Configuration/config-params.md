@@ -41,6 +41,7 @@ These parameters must be set for a fully working Chaos Genius installation.
 | Name | Type | Default | Description |
 | --- | --- | --- | --- |
 | **DAYS_OFFSET_FOR_ANALTYICS** | integer | 2 | Sets the days offset from the current date till which your KPI's will run for. By default, the analysis will be performed up until 2 days before the current date. For example, if your KPI runs on February 13th, your analytics will display results until February 11th. We don't recommend decreasing this value as it might lead to incomplete data being used for analysis. |
+| **HOURS_OFFSET_FOR_ANALTYICS** | integer | 0 | Sets the hours offset from the latest data point till which Anomaly Detection will run for your KPI. This variable is only utilized if Anomaly Model Frequency is set to Hourly. By default, the analysis will be performed till the most recent data. For example, if your KPI has data until 4 PM, Anomaly detection will run until 3 PM. |
 | **TIMEZONE** | string | UTC | This sets the timezone on which all your analytics are reported. Must be one of the [supported timezones](./supported-timezones.md). |
 | **MAX_ROWS_FOR_DEEPDRILLS** | integer | 10000000 | Sets the maximum number of rows allowed for a KPI to be added. You can increase this value if you have a very large dataset. Using large datasets will increase the computation time as well as the RAM required. |
 

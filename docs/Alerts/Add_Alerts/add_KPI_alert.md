@@ -1,19 +1,14 @@
 ---
 sidebar_position: 2
-id: 'Add New Alert'
+id: 'kpi-alert'
 ---
 
-# Add New Alert
+# KPI Alerts
 
-At present we offer only KPI related anomaly alerts. Event Alerts will be added soon.
+![Add KPI alert](/img/Alerts/add_alert_1.png)
 
-![Alert Type](/img/Alerts/alerttype.png)
+![Add KPI alert - channel config](/img/Alerts/add_alert_2.png)
 
-:::note
-You will need to [configure alert channels](/Alerts/Alert_Destination.md) before setting up an alert.
-:::
-
-## KPI Alert
 
 You need to fill in the following fields:
 
@@ -26,7 +21,7 @@ You need to fill in the following fields:
 -   **Severity Score**: You can select the Severity Score threshold above which you'll be sent an alert. If your data point is an anomaly and has a severity score 
     greater than your threshold, an alert will be sent.
 
--   **Alert Frequency**: How frequently will the alert be sent. Currently we offer Daily Alerts.
+-   **Alert Frequency**: How frequently will the alert be sent. We offer Daily or Hourly Alerts.
 
 -   **Message Body**: This is the message you want accompanied when the alert is sent to you.
 
@@ -41,8 +36,4 @@ You need to fill in the following fields:
 :::note
 Consolidated [Reports need to be configured](/Alerts/Alert_Report_Settings.md) to receive them.
 :::
-
-![Add KPI alert](/img/Alerts/add_alert_1.png)
-
-![Add KPI alert - channel config](/img/Alerts/add_alert_2.png)
 

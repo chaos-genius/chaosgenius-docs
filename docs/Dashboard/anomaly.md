@@ -20,8 +20,7 @@ Disclaimer: If the window size is greater than the data availbable, anomaly dete
 
 ### Model Frequency
 
-This is the frequency at which Chaos Genius will run Anomaly Detection. For the current version of Chaos Genius, it is set to Daily. This means, Chaos Genius will run Anomaly Detection once a day at a specified time.
-
+This is the frequency at which Chaos Genius will run Anomaly Detection. Chaos Genius provides the option for either Daily or Hourly frequency. If you choose Daily, this means, Chaos Genius will run Anomaly Detection once a day at a specified time. If you choose Hourly, Anomaly Detection will run every hour at the specified minute.
 ### Select A Model
 
 Here you will select which model will be used to run anomaly detection. You can find a list of available models and their use cases is the Anomaly Detection Algorithms section below.
@@ -36,7 +35,7 @@ This input is for the model to understand the frequency of the incoming data. If
 
 ### Schedule
 
-The time at which to run anomaly detection daily. Note the time set here is in accordance to your server time on which Chaos Genius is set up.
+The time at which to run anomaly detection. If you select Model Frequency as Daily, Schedule Time is the hour of the day at which Anomaly will run. If you select Hourly, Schedule Time is the minute of the hour at which Anomaly will run. Note the time set here is in accordance to your server time on which Chaos Genius is set up.
 
 ### Expected Seasonality in Data
 
