@@ -13,6 +13,10 @@ In order to run Anomaly Detection on the selected KPI, you need to configure in 
 
 There are multiple parameters that you can tune to configure the Anomaly Detection analytics for selected KPI. 
 
+### Time Series Frequency
+
+This input is for the model to understand the frequency of the incoming data. If you have data points coming in once a day, set it to daily or if you have data points coming once a hour, then set it to hourly.
+
 ### Time Window
 
 Time Window is the historical data points which will be used to train the selected model on your data to learn about the trends, seasonality and patterns for the selected KPI. If you choose a time window of 90 days with daily frequency data, past 90 days of data will be examined. For daily data, time window needs to be in the range of 30 to 60 days. For hourly data, time windows is between 7 to 21 days.
@@ -21,7 +25,7 @@ Disclaimer: If the window size is greater than the data availbable, anomaly dete
 ### Model Frequency
 
 This is the frequency at which Chaos Genius will run Anomaly Detection. Chaos Genius provides the option for either Daily or Hourly frequency. If you choose Daily, this means, Chaos Genius will run Anomaly Detection once a day at a specified time. If you choose Hourly, Anomaly Detection will run every hour at the specified minute.
-### Select A Model
+### Model Name
 
 Here you will select which model will be used to run anomaly detection. You can find a list of available models and their use cases is the Anomaly Detection Algorithms section below.
 
@@ -29,17 +33,9 @@ Here you will select which model will be used to run anomaly detection. You can 
 
 Sensitivity is a measure of the model's response to anomalous data points. A higher sensitivity will lead to even small changes being detected as anomalies and whereas lower sensitivity will only generate anomalies on larger changes.
 
-### Time Series Frequency
-
-This input is for the model to understand the frequency of the incoming data. If you have data points coming in once a day, set it to daily or if you have data points coming once a hour, then set it to hourly.
-
 ### Schedule
 
 The time at which to run anomaly detection. If you select Model Frequency as Daily, Schedule Time is the hour of the day at which Anomaly will run. If you select Hourly, Schedule Time is the minute of the hour at which Anomaly will run. Note the time set here is in accordance to your server time on which Chaos Genius is set up.
-
-### Expected Seasonality in Data
-
-Here we ask for what kind of seasonality is expected in the data as it can help our models be more accurate but you can still leave these boxes empty if you are not sure.
 
 
 ## Anomaly Detection Algorithms
