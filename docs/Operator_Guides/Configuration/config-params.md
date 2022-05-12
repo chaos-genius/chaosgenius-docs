@@ -44,6 +44,7 @@ These parameters must be set for a fully working Chaos Genius installation.
 | **HOURS_OFFSET_FOR_ANALTYICS** | integer | 0 | Sets the hours offset from the latest data point till which Anomaly Detection will run for your KPI. This variable is only utilized if Anomaly Model Frequency is set to Hourly. By default, the analysis will be performed till the most recent data. For example, if your KPI has data until 4 PM, Anomaly detection will run until 3 PM. |
 | **TIMEZONE** | string | UTC | This sets the timezone on which all your analytics are reported. Must be one of the [supported timezones](./supported-timezones.md). |
 | **MAX_ROWS_FOR_DEEPDRILLS** | integer | 10000000 | Sets the maximum number of rows allowed for a KPI to be added. You can increase this value if you have a very large dataset. Using large datasets will increase the computation time as well as the RAM required. |
+| **METADATA_SYNC_TIME**| string | `03:00` | The time (in server timezone) at which [data source metadata](../../Data_Sources/add_data-source.md#metadata-sync) is synchronized daily. |
 
 ## DeepDrills Parameters
 

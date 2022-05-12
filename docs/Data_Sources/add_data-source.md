@@ -28,6 +28,8 @@ For adding a new Data Source, click on the "New Data Source" button on top right
 
 -   Name the Data Source
 
+-   Choose your Data Source's time zone. By default this value is set to UTC.
+
 -   Select the Data Source type from the drop down
 
 -   Fill in the required credentials
@@ -37,6 +39,27 @@ For adding a new Data Source, click on the "New Data Source" button on top right
 The credential information varies by each Data Source type. Once you've filled in the credentials, you are required to test the connection by pressing "Test Connection".
 
 
-If the connection is successfully tested, you can add the Data Source by pressing the "Add Data Source" button on the bottom.
+If the connection is successfully tested, you can add the Data Source by pressing the "Add Data Source" button on the bottom that will replace the "Test Connection" button.
 
-![Test Connection](/img/connecting-to-data-sources/test_connection.png)
+## Metadata sync
+
+![Screenshot of a pop-up modal with the title "Data Source Added Successfully" and a line of text below it saying "Please wait for a few minutes for data sync to complete before adding a KPI".](/img/connecting-to-data-sources/metadata-sync-popup.png)
+
+Once you've added your data source, give Chaos Genius a couple of minutes to sync it's metadata.
+
+Metadata here refers to all the schemas, tables and columns present in a data source. This data is used to help you add a KPI. When a new data source is added, and every day hence, the metadata of the data source is cached inside Chaos Genius. The time at which metadata is synchronized daily can be [set globally](/Operator_Guides/Configuration/config-params.md#general-parameters).
+
+### Metadata sync status
+
+![Screenshot showing three data sources — "Redshift", "Live" and "Public". The fourth column in the data source list displays the metadata status. The statuses for the three data sources in order are — "In Progress", "Live" and "Broken".](/img/connecting-to-data-sources/metadata-statuses.png)
+
+The metadata will be in one of three states:
+- **In Progress**: synchronization is underway. For large data warehouses, the synchronization can take anywhere from a few seconds to 1 or 2 minutes.
+- **Live** (a.k.a. "Completed"): synchronization is complete and KPIs can be added if not already.
+- **Broken** (a.k.a. "Error"): synchronization could not complete due to an error. Please check the logs of the `chaosgenius-worker-alerts` service for details on the error.
+
+### Force update metadata
+
+If the metadata is out of date, you can trigger an update by clicking on the 3 dots menu and selecting "Sync schema". The metadata update runs as a background job.
+
+![Screenshot showing two data sources — "Live" and "Public". The three dots menu is open on the second data source showing four options — "Set Alerts", "Sync Schema", "Edit", "Delete".](/img/connecting-to-data-sources/metadata-sync-button.png).
