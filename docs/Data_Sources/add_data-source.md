@@ -45,6 +45,8 @@ If the connection is successfully tested, you can add the Data Source by pressin
 
 ![Screenshot of a pop-up modal with the title "Data Source Added Successfully" and a line of text below it saying "Please wait for a few minutes for data sync to complete before adding a KPI".](/img/connecting-to-data-sources/metadata-sync-popup.png)
 
+Once you've added your data source, give Chaos Genius a couple of minutes to sync it's metadata.
+
 Metadata here refers to all the schemas, tables and columns present in a data source. This data is used to help you add a KPI. When a new data source is added, and every day hence, the metadata of the data source is cached inside Chaos Genius. The time at which metadata is synchronized daily can be [set globally](/Operator_Guides/Configuration/config-params.md#general-parameters).
 
 ### Metadata sync status
