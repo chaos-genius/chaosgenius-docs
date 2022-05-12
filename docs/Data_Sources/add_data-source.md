@@ -28,6 +28,8 @@ For adding a new Data Source, click on the "New Data Source" button on top right
 
 -   Name the Data Source
 
+-   Choose your Data Source's time zone. By default this value is set to UTC.
+
 -   Select the Data Source type from the drop down
 
 -   Fill in the required credentials
@@ -37,9 +39,7 @@ For adding a new Data Source, click on the "New Data Source" button on top right
 The credential information varies by each Data Source type. Once you've filled in the credentials, you are required to test the connection by pressing "Test Connection".
 
 
-If the connection is successfully tested, you can add the Data Source by pressing the "Add Data Source" button on the bottom.
-
-![Test Connection](/img/connecting-to-data-sources/test_connection.png)
+If the connection is successfully tested, you can add the Data Source by pressing the "Add Data Source" button on the bottom that will replace the "Test Connection" button.
 
 ## Metadata sync
 
