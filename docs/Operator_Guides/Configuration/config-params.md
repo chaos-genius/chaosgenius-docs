@@ -43,18 +43,19 @@ These parameters must be set for a fully working Chaos Genius installation.
 | **DAYS_OFFSET_FOR_ANALTYICS** | integer | 2 | Sets the days offset from the current date till which your KPI's will run for. By default, the analysis will be performed up until 2 days before the current date. For example, if your KPI runs on February 13th, your analytics will display results until February 11th. We don't recommend decreasing this value as it might lead to incomplete data being used for analysis. |
 | **HOURS_OFFSET_FOR_ANALTYICS** | integer | 0 | Sets the hours offset from the latest data point till which Anomaly Detection will run for your KPI. This variable is only utilized if Anomaly Model Frequency is set to Hourly. By default, the analysis will be performed till the most recent data. For example, if your KPI has data until 4 PM, Anomaly detection will run until 3 PM. |
 | **TIMEZONE** | string | UTC | This sets the timezone on which all your analytics are reported. Both time zone aware and time zone naive data is converted to the TIMEZONE you set. Must be one of the [supported timezones](./supported-timezones.md). |
-| **MAX_ROWS_FOR_DEEPDRILLS** | integer | 10000000 | Sets the maximum number of rows allowed for a KPI to be added. You can increase this value if you have a very large dataset. Using large datasets will increase the computation time as well as the RAM required. |
+| **MAX_ROWS_IN_KPI** | integer | 10000000 | Sets the maximum number of rows allowed for a KPI to be added. You can increase this value if you have a very large dataset. Using large datasets will increase the computation time as well as the RAM required. |
 | **METADATA_SYNC_TIME**| string | `03:00` | The time (in server timezone) at which [data source metadata](../../Data_Sources/add_data-source.md#metadata-sync) is synchronized daily. |
 
-## DeepDrills Parameters
+## KPI Summary and DeepDrills Parameters
 
 | Name | Type | Default | Description | 
 | --- | --- | --- | --- |   
-| **MAX_DEEPDRILLS_SLACK_DAYS** | integer | 14 | Sets the maximum number of days for which we can have no data and still consider the KPI for DeepDrills. You can increase this value if you expect to have large periods of missing data or have consistently sparse data. |
+| **MAX_SUMMARY_DEEPDRILLS_SLACK_DAYS** | integer | 14 | Sets the maximum number of days for which we can have no data and still consider the KPI for DeepDrills. You can increase this value if you expect to have large periods of missing data or have consistently sparse data. |
+| **SUMMARY_DEEPDRILLS_ENABLED_TIME_RANGES** | string | <span style={{overflowWrap: "anywhere"}}>last_30_days, last_7_days, previous_day, month_on_month, month_to_date, week_on_week, week_to_date</span> | Sets the enabled time ranges for which DeepDrills is computed as comma separated values. |
+| **DEEPDRILLS_ENABLED** | bool | `false` | Enables the calculation of DeepDrills for KPIs.
 | **DEEPDRILLS_HTABLE_MAX_PARENTS** | integer | 5 | Sets the maximum number of rows in the first level of the DeepDrills' drilldowns. |
 | **DEEPDRILLS_HTABLE_MAX_CHILDREN** | integer | 5 | Sets the maximum number of rows in the subsequent levels of the DeepDrills' drilldowns. |
 | **DEEPDRILLS_HTABLE_MAX_DEPTH** | integer | 3 | Sets the maximum depth of the drilldowns in DeepDrills. |
-| **DEEPDRILLS_ENABLED_TIME_RANGES** | string | <span style={{overflowWrap: "anywhere"}}>last_30_days, last_7_days, previous_day, month_on_month, month_to_date, week_on_week, week_to_date</span> | Sets the enabled time ranges for which DeepDrills is computed as comma separated values. |
 
 ## Anomaly Detection Parameters
 
