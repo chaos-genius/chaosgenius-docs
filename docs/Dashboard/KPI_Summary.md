@@ -40,5 +40,5 @@ Using the Time range dropdown, you can select to compare groups in the time inte
 
 The time intervals we currently offer are: *Last 30 Days, Last 7 Days, Previous Day, Month on Month, MTD (Month Till Date), Week on Week, WTD (Week Till Date), Quarter on Quarter and QTD (Quarter Till Date)*. 
 
-Quarterly time-cuts are disabled by default. You can set what intervals you want using the `DEEPDRILLS_ENABLED_TIME_RANGES` param in the .env file. For more information please refer to the [Config Param Guide](/Operator_Guides/Configuration/config-params.md).
+Quarterly time-cuts are disabled by default. You can set what intervals you want using the `SUMMARY_DEEPDRILLS_ENABLED_TIME_RANGES` param in the .env file. For more information please refer to the [Config Param Guide](/Operator_Guides/Configuration/config-params.md).
 
