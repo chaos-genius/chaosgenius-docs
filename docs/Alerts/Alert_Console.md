@@ -44,9 +44,9 @@ By default, sub-dimensional level anomalies are hidden for brevity. You can enab
 
 You can sort the table by:
 - Anomaly timestamp (default)
-- Severity score
 - Value of metric
-
+- Previous value of metric
+- Change in value
 ### Data download
 
 Once you have applied all the filters and sorting you need, you can download the table as a CSV using the `Download CSV` button in the top right corner.
