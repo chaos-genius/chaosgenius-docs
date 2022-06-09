@@ -9,8 +9,7 @@ id: 'KPI_Summary'
 
 Once you've selected the KPI you want to view, your results will look something like this:
 
-*TODO: Update Image*
-![DeepDrills Results](/img/kpi-and-dashboard/DeepDrills.png)
+![KPI Summary Results](/img/kpi-and-dashboard/kpi_summary_overview.png)
 
 The KPI in this example is `Lyft Rides` When creating this KPI, it was set up to be a `Sum` aggregation of the `num_rides` column.
 
@@ -18,12 +17,11 @@ At the top, you'll see a summary of your KPI column represented with Summary Pan
 
 ## Summary Panel
 
-*TODO: Update Image*
 ![Panel Metrics](/img/kpi-and-dashboard/panel_metrics.png)
 
 Chaos Genius produces a Summary Panel of your metrics from the KPI column and places them at the top for quick viewing. You can examine the values for both the current time range and the previous time range. We also provide a comparison between the two time ranges.
 
-For example, here, we've selected our time range to be the Last 30 days. The total rides were 571K in the Previous Period (17th Dec 2021 - 16th Jan 2022) and 608K in the current period (17th Jan 2022 - 16th Feb 2022). You can clearly see that the rides increased by 37.2K which is about 6.52%. The last card also shows the number of anomalies detected in the last week which can further help you identify changes.
+For example, here, we've selected our time range to be the Last 30 days. The total rides were 609K in the Previous Period (06th Apr 2022 - 06th May 2022) and 602K in the current period (07th May 2022 - 06th Jun 2022). You can clearly see that the rides decreased by 6.22K which is about 1.02%. The last card also shows the number of anomalies detected in the last week which can further help you identify changes.
 
 ## Time Series Plot
 
