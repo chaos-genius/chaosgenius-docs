@@ -92,19 +92,6 @@ The drill downs will look similar to this:
 
 A list of Time series charts are displayed where each graph represents a value for a subdimension. You can scroll down your dashboard and look at each of the Drill Down graphs.
 
-### Data Quality
-
-**In addition to Anomaly detection drill downs, Chaos Genius provides Data Quality monitoring which can help identify where issues with data quality may be present.**
-
-![Data Quality Monitoring](/img/kpi-and-dashboard/data-quality-monitoring.png)
-
-Here, you can scroll down your dashboard to view each of the Data Quality charts. 
-
-Currently, for KPIs aggregated from numerical columns, data quality is performed for numerous metrics:
-- **Count**: Number of rows in the data.
-- **Max**: Max value of the KPI data.
-- **Mean**: Mean of the KPI data.
-
 ## Analysing Sub-Dimensional Anomalies
 
 ![Sub-Dimensional Anomalies](/img/kpi-and-dashboard/sub_dim_anomaly.png)
