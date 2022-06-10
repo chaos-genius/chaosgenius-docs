@@ -16,9 +16,9 @@ Both of these can be accessed on the status page at [http://localhost:8080/api/s
 The task monitor shows the following details:
 
 * KPI name, KPI ID and Task ID
-  * Task ID is unique to the task (Anomaly or DeepDrills) being run.
+  * Task ID is unique to the task (Anomaly or KPI Summary) being run.
 * Analytics Type
-  * DeepDrills or Anomaly.
+  * KPI Summary or Anomaly.
 * Analytics Subtask
   * These are specific checkpoints in the computation. For example, a failure at "Data Loader" would indicate that ingesting data from the DB/DW failed.
 * Status

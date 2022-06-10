@@ -17,7 +17,7 @@ A Key Performance Indicator (KPI) is a statistic that is used to quantify progre
 
 Alone, these KPIs will provide a baseline representation of how your business is doing. 
 
-However, by adding these KPIs to Chaos Genius, you will be able to use our DeepDrills and Anomaly Detection features to instantly gain insights that would have taken hours to gather manually.
+However, by adding these KPIs to Chaos Genius, you will be able to use our KPI Summary and Anomaly Detection features to instantly gain insights that would have taken hours to gather manually.
 
 ## Add a KPI
 KPIs can be added on the "KPI Explorer" page. Start by clicking "New KPI".
