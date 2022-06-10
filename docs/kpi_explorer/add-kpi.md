@@ -64,6 +64,11 @@ If you select your Data Set Type as 'Table', then an additional option to choose
 
 The column chosen for `Metric Column` is what will be used for aggregation in order to define your KPI. 
 
+### Count Column (Currently applicaple for Druid only)
+
+The column representing the `count` for the rolled-up data, this column can also be proxy for count for the rolled up data i.e. not representing the actual count.
+
+
 ### Aggregate By
 
 `Aggregate By` has three options:
