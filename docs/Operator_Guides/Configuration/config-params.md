@@ -50,8 +50,8 @@ These parameters must be set for a fully working Chaos Genius installation.
 
 | Name | Type | Default | Description | 
 | --- | --- | --- | --- |   
-| **MAX_SUMMARY_DEEPDRILLS_SLACK_DAYS** | integer | 14 | Sets the maximum number of days for which we can have no data and still consider the KPI for DeepDrills. You can increase this value if you expect to have large periods of missing data or have consistently sparse data. |
-| **SUMMARY_DEEPDRILLS_ENABLED_TIME_RANGES** | string | <span style={{overflowWrap: "anywhere"}}>last_30_days, last_7_days, previous_day, month_on_month, month_to_date, week_on_week, week_to_date</span> | Sets the enabled time ranges for which DeepDrills is computed as comma separated values. |
+| **MAX_SUMMARY_DEEPDRILLS_SLACK_DAYS** | integer | 14 | Sets the maximum number of days for which we can have no data and still consider the KPI for KPI Summary and DeepDrills. You can increase this value if you expect to have large periods of missing data or have consistently sparse data. |
+| **SUMMARY_DEEPDRILLS_ENABLED_TIME_RANGES** | string | <span style={{overflowWrap: "anywhere"}}>last_30_days, last_7_days, previous_day, month_on_month, month_to_date, week_on_week, week_to_date</span> | Sets the enabled time ranges for which KPI Summary and DeepDrills is computed as comma separated values. |
 | **DEEPDRILLS_ENABLED** | bool | `false` | Enables the calculation of DeepDrills for KPIs.
 | **DEEPDRILLS_HTABLE_MAX_PARENTS** | integer | 5 | Sets the maximum number of rows in the first level of the DeepDrills' drilldowns. |
 | **DEEPDRILLS_HTABLE_MAX_CHILDREN** | integer | 5 | Sets the maximum number of rows in the subsequent levels of the DeepDrills' drilldowns. |
