@@ -92,12 +92,10 @@ The drill downs will look similar to this:
 
 A list of Time series charts are displayed where each graph represents a value for a subdimension. You can scroll down your dashboard and look at each of the Drill Down graphs.
 
-## Analysing Sub-Dimensional Anomalies
+## Sub-Dimensional Anomaly Filter 
 
-![Sub-Dimensional Anomalies](/img/kpi-and-dashboard/sub_dim_anomaly.png)
+![Sub-Dimensional Anomaly Filter](/img/kpi-and-dashboard/sub_dim_anomaly.png)
 
-Chaos Genius also provides the added capability of examining anomalies in your dimensions. This will let you know if any of your dimensions suffered any anomalous behaviour on your last updated date.
+Chaos Genius also provides the added capability of examining anomalies in your dimensions. This will let you know if any of your dimensions suffered any anomalous behaviour over your selected time window.
 
-For daily KPI's, the top 10 (based on severity) dimensions that had an anomaly occur on the last day of your KPI are displayed in the UI. For hourly KPI's, we utilize a 24-hour window to rank dimensions (based on severity) and from that the top 10 are displayed. 
-
-To change the number of dimensions being displayed, you can change the `TOP_SUBDIMENSIONS_FOR_ANOMALY` param in the .env file. For more information please refer to the [Config Param Guide](/Operator_Guides/Configuration/config-params.md).
+Users can utilize the filter to select the dimension and it's respective value to view the particular sub-dimension.
