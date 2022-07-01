@@ -31,3 +31,16 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .prism-code {
   max-height: 500px;
 }
+
+
+.inline-image {
+  position: relative;
+  top: 0.7em;
+}
+
+
+.left-spaced-image {
+  position: relative;
+  left: 2em;
+}
+
