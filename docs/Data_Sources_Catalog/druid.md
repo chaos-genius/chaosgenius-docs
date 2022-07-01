@@ -9,7 +9,7 @@ id: 'druid'
 
 - Current usecase for <strong>Druid</strong> is with <strong>Roll-up</strong> enabled only.
 - Supports only `COUNT` and `SUM` aggregation. We have future plans for `MEAN` and `UNIQUE`.
-- Druid based KPIs require name for the <strong>Count Column</strong> for the rolled-up data (this column can also be proxy for count for the rolled-up data i.e. not representing the actual count), this is a configurable parameter and can be set in KPI definition while adding/editing a KPI.
+- Druid based KPIs require a name for the <strong>Count Column</strong> in case of rolled-up data (this column can also be proxy for count for the rolled-up data i.e. not representing the actual count), this is a configurable parameter and can be set in KPI definition while adding/editing a KPI.
 
 :::
 

@@ -66,7 +66,7 @@ The column chosen for `Metric Column` is what will be used for aggregation in or
 
 ### Count Column (Currently applicaple for Druid only)
 
-The column representing the `count` for the rolled-up data, this column can also be proxy for count for the rolled up data i.e. not representing the actual count.
+The column representing the `count` values of the rolled-up data, this column can also be proxy for count for the rolled up data i.e. not representing the actual count.
 
 
 ### Aggregate By
