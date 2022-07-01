@@ -27,7 +27,7 @@ You need to fill in the following fields:
 
 -   **Message Body**: This is the message you want accompanied when the alert is sent to you.
 
--   **Include Alerts By Dimensions**: If enabled, alerts will be sent for sub-dimensional anomalies too. This setting does *not* affect "reasons for change" for overall anomalies.
+-   **Include Alerts By Dimensions**: If enabled, alerts will be sent for sub-dimensional anomalies too. *Note:* even if this is disabled, you will still receive sub-dimensions responsible for anomalies in the overall KPI.
 
 -   **Select Channel**: Channel on which you want to receive the alert at. Currently you can choose between either :
 
@@ -43,13 +43,13 @@ Consolidated [Reports need to be configured](/Alerts/Alert_Report_Settings.md) t
 
 ## Examples of KPI alerts
 
-Example of email KPI alerts:
+### Email alerts
 
 ![KPI alert sent via email](/img/Alerts/alert_example_kpi_email.png)
 
 ![KPI alert sent via email](/img/Alerts/alert_example_kpi_email_2.png)
 
-Example of a slack alert:
+### Slack alerts
 
 ![KPI alert sent via slack](/img/Alerts/alert_example_kpi_slack_1.png)
 

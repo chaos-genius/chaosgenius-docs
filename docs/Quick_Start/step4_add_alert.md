@@ -29,7 +29,7 @@ To setup an Alert, you first have to click the `New Alert` button, select `KPI A
 
 -   **Message Body**: This is the message you want accompanied when the alert is sent to you.
 
--   **Include Alerts By Dimensions**: If enabled, alerts will be sent for sub-dimensional anomalies too. This setting does *not* affect "reasons for change" for overall anomalies.
+-   **Include Alerts By Dimensions**: If enabled, alerts will be sent for sub-dimensional anomalies too. *Note:* even if this is disabled, you will still receive sub-dimensions responsible for anomalies in the overall KPI.
 
 -   **Select Channel**: Channel on which you want to receive the alert at. Currently you can choose between either :
 

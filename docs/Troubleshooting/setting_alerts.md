@@ -6,6 +6,8 @@ id: 'setting_alerts'
 
 ## Links in alerts go to localhost
 
-**Problem**: the KPI, sub-dimension or dashboard links go to `localhost:8080` instead of your installation.
+The KPI, sub-dimension or dashboard links go to `localhost:8080` instead of your installation.
 
-**Solution**: set the [webapp URL in the `.env` file](/Operator_Guides/Configuration/config-params.md#required-parameters).
+**Solution**
+
+Set the [webapp URL in the `.env` file](/Operator_Guides/Configuration/config-params.md#required-parameters).
