@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'ChaosGenius Documentation',
+  title: 'Chaos Genius Documentation',
   tagline: 'The Open-Source Business Observability Platform',
   url: 'https://chaosgenius.io/',
   baseUrl: '/',
@@ -14,7 +14,7 @@ module.exports = {
   projectName: 'chaos_genius', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'ChaosGenius Documentation',
+      title: 'Chaos Genius Documentation',
       logo: {
         alt: 'ChaosGenius Logo',
         src: 'img/logo-light.png',
@@ -32,7 +32,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'ChaosGenius',
+          title: 'Chaos Genius',
           items: [
             {
               label: 'Documentation',
