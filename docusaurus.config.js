@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Chaos Genius Documentation',
   tagline: 'The Open-Source Business Observability Platform',
-  url: 'https://chaosgenius.io/',
+  url: 'https://docs.chaosgenius.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
